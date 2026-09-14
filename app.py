@@ -166,6 +166,15 @@ st.markdown(
         margin-bottom: 10px;
     }
 
+    .chart-card {
+        background: white;
+        border: 1px solid #e2e6ed;
+        border-radius: 16px;
+        padding: 18px 20px 12px 20px;
+        box-shadow: 0 4px 16px rgba(23, 35, 63, 0.05);
+        overflow: visible;
+    }
+
     /* --------------------------------------------------------
        FOOTER
     -------------------------------------------------------- */
@@ -691,6 +700,8 @@ if selected_state == "All India":
 
     with left_chart:
 
+        st.markdown('<div class="chart-card">', unsafe_allow_html=True)
+
         st.markdown(
             """
             <div class="chart-header">
@@ -718,12 +729,7 @@ if selected_state == "All India":
         fig.update_traces(
             marker_color="#4F6FF5",
             textposition="outside",
-            cliponaxis=False,
-            hovertemplate=(
-                "<b>%{y}</b>"
-                "<br>SC Population: %{x:,}"
-                "<extra></extra>"
-            )
+            hovertemplate="<b>%{y}</b><br>SC Population: %{x:,}<extra></extra>"
         )
 
         fig.update_layout(
@@ -735,8 +741,7 @@ if selected_state == "All India":
             xaxis=dict(
                 title="SC Population",
                 tickformat=",",
-                gridcolor="#EEF1F7",
-                zeroline=False
+                gridcolor="#EEF1F7"
             ),
             yaxis=dict(
                 title="",
@@ -750,6 +755,8 @@ if selected_state == "All India":
             use_container_width=True,
             config={"displayModeBar": False}
         )
+
+        st.markdown('</div>', unsafe_allow_html=True)
 
 
     # --------------------------------------------------------
