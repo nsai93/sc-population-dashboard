@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import textwrap
 
 
 # ============================================================
@@ -20,8 +21,7 @@ st.set_page_config(
 # CUSTOM CSS
 # ============================================================
 
-st.markdown(
-    """
+st.markdown(textwrap.dedent("""
     <style>
 
     /* --------------------------------------------------------
@@ -48,41 +48,12 @@ st.markdown(
         background-color: #17233F;
     }
 
-    /* Keep sidebar labels white, but keep selectbox values dark on white. */
-    section[data-testid="stSidebar"] h1,
-    section[data-testid="stSidebar"] h2,
-    section[data-testid="stSidebar"] h3,
-    section[data-testid="stSidebar"] label,
-    section[data-testid="stSidebar"] .stMarkdown,
-    section[data-testid="stSidebar"] .stMarkdown p {
-        color: #FFFFFF !important;
-    }
-
-    /* Streamlit / BaseWeb selectbox: readable dark text inside white boxes. */
-    section[data-testid="stSidebar"] [data-baseweb="select"] * {
-        color: #17233F !important;
-    }
-
-    section[data-testid="stSidebar"] [data-baseweb="select"] > div {
-        background-color: #FFFFFF !important;
-        border-radius: 10px !important;
-        border: 1px solid #FFFFFF !important;
-    }
-
-    section[data-testid="stSidebar"] [data-baseweb="select"] input {
-        color: #17233F !important;
-        -webkit-text-fill-color: #17233F !important;
-    }
-
-    [data-baseweb="popover"] [role="option"],
-    [data-baseweb="popover"] [role="option"] * {
-        color: #17233F !important;
-        background-color: #FFFFFF !important;
+    section[data-testid="stSidebar"] * {
+        color: white !important;
     }
 
     section[data-testid="stSidebar"] .stSelectbox label {
         font-weight: 600;
-        color: #FFFFFF !important;
     }
 
     /* --------------------------------------------------------
@@ -182,14 +153,6 @@ st.markdown(
        CHART CONTAINERS
     -------------------------------------------------------- */
 
-    .chart-card {
-        background: white;
-        border: 1px solid #e2e6ed;
-        border-radius: 16px;
-        padding: 20px;
-        box-shadow: 0 4px 16px rgba(23, 35, 63, 0.05);
-    }
-
     .chart-header {
         font-size: 21px;
         font-weight: 700;
@@ -239,32 +202,9 @@ st.markdown(
     }
 
     </style>
-    """,
+    """),
     unsafe_allow_html=True
 )
-
-
-# ============================================================
-# HELPER FUNCTIONS & CONSTANTS
-# ============================================================
-
-INDIGO = "#4F6FF5"
-INK = "#17233F"
-
-
-def render(html_content):
-    st.markdown(html_content, unsafe_allow_html=True)
-
-
-def chart_header(title, description):
-    return f"""
-    <div class="chart-header">
-        {title}
-    </div>
-    <div class="chart-description">
-        {description}
-    </div>
-    """
 
 
 # ============================================================
@@ -463,8 +403,7 @@ total_population = int(
 # SIDEBAR
 # ============================================================
 
-st.sidebar.markdown(
-    """
+st.sidebar.markdown(textwrap.dedent("""
     <div style="
         font-size:26px;
         font-weight:800;
@@ -480,7 +419,7 @@ st.sidebar.markdown(
     ">
         Census 2011 Population Explorer
     </div>
-    """,
+    """),
     unsafe_allow_html=True
 )
 
@@ -561,8 +500,7 @@ if selected_state == "All India":
     # HEADER
     # --------------------------------------------------------
 
-    st.markdown(
-        """
+    st.markdown(textwrap.dedent("""
         <div class="dashboard-title">
             Scheduled Caste Population Dashboard — India
         </div>
@@ -570,7 +508,7 @@ if selected_state == "All India":
         <div class="dashboard-subtitle">
             Census 2011 · Scheduled Caste Population Statistics
         </div>
-        """,
+        """),
         unsafe_allow_html=True
     )
 
@@ -750,32 +688,83 @@ if selected_state == "All India":
     # --------------------------------------------------------
 
     with left_chart:
-        st.markdown('<div class="chart-card">', unsafe_allow_html=True)
-        render(chart_header("SC Population by State / UT", "Ranked from highest to lowest population"))
 
+        # Chart heading
+        st.markdown(
+            textwrap.dedent("""
+                <div class="chart-header">
+                    SC Population by State / UT
+                </div>
+
+                <div class="chart-description">
+                    Ranked from highest to lowest population
+                </div>
+            """),
+            unsafe_allow_html=True
+        )
+
+        # Keep the original state_summary data unchanged
         chart_df = state_summary.copy()
-        chart_df["Display Population"] = chart_df["SC Population"].apply(indian_number)
 
+        # Indian-style population labels
+        chart_df["Display Population"] = (
+            chart_df["SC Population"]
+            .apply(indian_number)
+        )
+
+        # Horizontal bar chart
         fig = px.bar(
-            chart_df, x="SC Population", y="State",
-            orientation="h", text="Display Population"
+            chart_df,
+            x="SC Population",
+            y="State",
+            orientation="h",
+            text="Display Population"
         )
+
         fig.update_traces(
-            marker_color=INDIGO,
+            marker_color="#4B6BFF",
             textposition="outside",
-            hovertemplate="<b>%{y}</b><br>SC Population: %{x:,}<extra></extra>"
+            cliponaxis=False,
+            hovertemplate=(
+                "<b>%{y}</b>"
+                "<br>SC Population: %{x:,}"
+                "<extra></extra>"
+            )
         )
+
         fig.update_layout(
             height=480,
-            margin=dict(l=10, r=70, t=10, b=30),
-            plot_bgcolor="white", paper_bgcolor="white",
-            font=dict(family="Inter, Arial", color=INK),
-            xaxis=dict(title="SC Population", tickformat=",", gridcolor="#EEF1F7"),
-            yaxis=dict(title="", autorange="reversed"),
+            margin=dict(
+                l=10,
+                r=70,
+                t=10,
+                b=30
+            ),
+            plot_bgcolor="white",
+            paper_bgcolor="white",
+            font=dict(
+                family="Inter, Arial",
+                color="#17233F"
+            ),
+            xaxis=dict(
+                title="SC Population",
+                tickformat=",",
+                gridcolor="#EEF1F7"
+            ),
+            yaxis=dict(
+                title="",
+                autorange="reversed"
+            ),
             showlegend=False
         )
-        st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
-        st.markdown('</div>', unsafe_allow_html=True)
+
+        st.plotly_chart(
+            fig,
+            use_container_width=True,
+            config={
+                "displayModeBar": False
+            }
+        )
 
 
     # --------------------------------------------------------
@@ -784,8 +773,7 @@ if selected_state == "All India":
 
     with right_chart:
 
-        st.markdown(
-            """
+        st.markdown(textwrap.dedent("""
             <div class="chart-header">
                 Top 5 States vs Remaining
             </div>
@@ -793,7 +781,7 @@ if selected_state == "All India":
             <div class="chart-description">
                 Share of loaded SC population
             </div>
-            """,
+            """),
             unsafe_allow_html=True
         )
 
@@ -886,8 +874,7 @@ if selected_state == "All India":
     # STATE TABLE
     # ========================================================
 
-    st.markdown(
-        """
+    st.markdown(textwrap.dedent("""
         <div class="section-title">
             State / UT Population Summary
         </div>
@@ -895,7 +882,7 @@ if selected_state == "All India":
         <div class="section-subtitle">
             Total Scheduled Caste population by loaded State / UT
         </div>
-        """,
+        """),
         unsafe_allow_html=True
     )
 
@@ -1260,8 +1247,7 @@ else:
 
         with left_chart:
 
-            st.markdown(
-                """
+            st.markdown(textwrap.dedent("""
                 <div class="chart-header">
                     Top 10 SC Groups by Population
                 </div>
@@ -1269,7 +1255,7 @@ else:
                 <div class="chart-description">
                     Largest Scheduled Caste groups in this state
                 </div>
-                """,
+                """),
                 unsafe_allow_html=True
             )
 
@@ -1362,8 +1348,7 @@ else:
 
         with right_chart:
 
-            st.markdown(
-                """
+            st.markdown(textwrap.dedent("""
                 <div class="chart-header">
                     Top 5 vs Remaining Groups
                 </div>
@@ -1371,7 +1356,7 @@ else:
                 <div class="chart-description">
                     Share of state-level SC population
                 </div>
-                """,
+                """),
                 unsafe_allow_html=True
             )
 
@@ -1472,8 +1457,7 @@ else:
         # FULL CATEGORY TABLE
         # ====================================================
 
-        st.markdown(
-            """
+        st.markdown(textwrap.dedent("""
             <div class="section-title">
                 SC Population Distribution
             </div>
@@ -1481,7 +1465,7 @@ else:
             <div class="section-subtitle">
                 Complete Scheduled Caste category data for this state
             </div>
-            """,
+            """),
             unsafe_allow_html=True
         )
 
@@ -1522,11 +1506,10 @@ else:
 # FOOTER
 # ============================================================
 
-st.markdown(
-    """
+st.markdown(textwrap.dedent("""
     <div class="footer">
         Source: Census of India 2011 · Scheduled Caste Population Data
     </div>
-    """,
+    """),
     unsafe_allow_html=True
 )
