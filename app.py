@@ -48,12 +48,41 @@ st.markdown(
         background-color: #17233F;
     }
 
-    section[data-testid="stSidebar"] * {
-        color: white !important;
+    /* Keep sidebar labels white, but keep selectbox values dark on white. */
+    section[data-testid="stSidebar"] h1,
+    section[data-testid="stSidebar"] h2,
+    section[data-testid="stSidebar"] h3,
+    section[data-testid="stSidebar"] label,
+    section[data-testid="stSidebar"] .stMarkdown,
+    section[data-testid="stSidebar"] .stMarkdown p {
+        color: #FFFFFF !important;
+    }
+
+    /* Streamlit / BaseWeb selectbox: readable dark text inside white boxes. */
+    section[data-testid="stSidebar"] [data-baseweb="select"] * {
+        color: #17233F !important;
+    }
+
+    section[data-testid="stSidebar"] [data-baseweb="select"] > div {
+        background-color: #FFFFFF !important;
+        border-radius: 10px !important;
+        border: 1px solid #FFFFFF !important;
+    }
+
+    section[data-testid="stSidebar"] [data-baseweb="select"] input {
+        color: #17233F !important;
+        -webkit-text-fill-color: #17233F !important;
+    }
+
+    [data-baseweb="popover"] [role="option"],
+    [data-baseweb="popover"] [role="option"] * {
+        color: #17233F !important;
+        background-color: #FFFFFF !important;
     }
 
     section[data-testid="stSidebar"] .stSelectbox label {
         font-weight: 600;
+        color: #FFFFFF !important;
     }
 
     /* --------------------------------------------------------
@@ -691,10 +720,8 @@ if selected_state == "All India":
 
     with left_chart:
 
-        # Header only: keep it as a normal Streamlit block.
-        # Do NOT leave an HTML <div> open around the Plotly component;
-        # Streamlit renders components independently and an open wrapper
-        # can interfere with the DOM/CSS of the KPI cards below/above it.
+        # Header is kept outside the Plotly component.
+        # This avoids invalid HTML wrappers around Streamlit components.
         st.markdown(
             """
             <div class="chart-header">
@@ -708,7 +735,9 @@ if selected_state == "All India":
         )
 
         chart_df = state_summary.copy()
-        chart_df["Display Population"] = chart_df["SC Population"].apply(indian_number)
+        chart_df["Display Population"] = (
+            chart_df["SC Population"].apply(indian_number)
+        )
 
         fig = px.bar(
             chart_df,
@@ -719,18 +748,25 @@ if selected_state == "All India":
         )
 
         fig.update_traces(
-            marker_color="#4F6BFF",
+            marker_color="#4F6FF5",
             textposition="outside",
             cliponaxis=False,
-            hovertemplate="<b>%{y}</b><br>SC Population: %{x:,}<extra></extra>"
+            hovertemplate=(
+                "<b>%{y}</b>"
+                "<br>SC Population: %{x:,}"
+                "<extra></extra>"
+            )
         )
 
         fig.update_layout(
             height=480,
-            margin=dict(l=10, r=70, t=10, b=30),
+            margin=dict(l=10, r=90, t=10, b=30),
             plot_bgcolor="white",
             paper_bgcolor="white",
-            font=dict(family="Inter, Arial", color="#17233F"),
+            font=dict(
+                family="Inter, Arial",
+                color="#17233F"
+            ),
             xaxis=dict(
                 title="SC Population",
                 tickformat=",",
