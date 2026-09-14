@@ -720,8 +720,9 @@ if selected_state == "All India":
 
     with left_chart:
 
-        # Header is kept outside the Plotly component.
-        # This avoids invalid HTML wrappers around Streamlit components.
+        # Keep the chart heading as a normal Streamlit element.
+        # Do NOT wrap st.plotly_chart() inside an HTML div; that can
+        # cause the HTML to appear as literal text in Streamlit.
         st.markdown(
             """
             <div class="chart-header">
@@ -760,7 +761,7 @@ if selected_state == "All India":
 
         fig.update_layout(
             height=480,
-            margin=dict(l=10, r=90, t=10, b=30),
+            margin=dict(l=10, r=70, t=10, b=30),
             plot_bgcolor="white",
             paper_bgcolor="white",
             font=dict(
