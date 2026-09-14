@@ -26,7 +26,7 @@ if selected_state == "All States":
 else:
     filtered_df = df[df["State"] == selected_state].copy()
 
-# Search SC Name
+# Search Scheduled Caste
 search = st.sidebar.text_input("Search Scheduled Caste")
 
 if search:
@@ -55,32 +55,25 @@ with col3:
         f"{filtered_df['Total Population'].sum():,}"
     )
 
+# Chart
 st.divider()
 
-# Population chart
 st.subheader("Scheduled Caste Population")
 
-chart_df = (
+state_population = (
     filtered_df
     .groupby("State")["Total Population"]
     .sum()
     .sort_values(ascending=False)
 )
 
-st.bar_chart(chart_df)
-
-st.divider()
+st.bar_chart(state_population)
 
 # Data table
-st.subheader("Scheduled Caste Population Details")
-
-display_df = filtered_df.sort_values(
-    "Total Population",
-    ascending=False
-)
+st.subheader("Scheduled Caste Data")
 
 st.dataframe(
-    display_df,
+    filtered_df,
     use_container_width=True,
     hide_index=True
 )
