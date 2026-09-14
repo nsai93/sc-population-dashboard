@@ -341,3 +341,842 @@ RAJASTHAN,56,Singiwala,15879
 RAJASTHAN,57,"Thori, Nayak",839204
 RAJASTHAN,58,"Tirgar, Tirbanda",5273
 RAJASTHAN,59,Turi,4963
+UTTAR PRADESH,1,Agariya (excluding Sonbhadra district),5803
+UTTAR PRADESH,2,Badhik,9018
+UTTAR PRADESH,3,Badi,11028
+UTTAR PRADESH,4,Baheliya,143442
+UTTAR PRADESH,5,Baiga (excluding Sonbhadra district),17387
+UTTAR PRADESH,6,Baiswar,17920
+UTTAR PRADESH,7,Bajaniya,2611
+UTTAR PRADESH,8,Bajgi,886
+UTTAR PRADESH,9,Balahar,5029
+UTTAR PRADESH,10,Balai,1200
+UTTAR PRADESH,11,Balmiki,1319241
+UTTAR PRADESH,12,Bangali,38035
+UTTAR PRADESH,13,Banmanus,24185
+UTTAR PRADESH,14,Bansphor,59804
+UTTAR PRADESH,15,Barwar,18105
+UTTAR PRADESH,16,Basor,129885
+UTTAR PRADESH,17,Bawariya,7223
+UTTAR PRADESH,18,Beldar,189614
+UTTAR PRADESH,19,Beriya,46755
+UTTAR PRADESH,20,Bhantu,11807
+UTTAR PRADESH,21,Bhuiya (excluding Sonbhadra district),4095
+UTTAR PRADESH,22,Bhuyiar,28360
+UTTAR PRADESH,23,Boria,4558
+UTTAR PRADESH,24,"Chamar,  Dhusia,  Jhusia,  Jatava",22496047
+UTTAR PRADESH,25,Chero (excluding Sonbhadra and Varanasi districts),596
+UTTAR PRADESH,26,Dabgar,7000
+UTTAR PRADESH,27,Dhangar,43806
+UTTAR PRADESH,28,Dhanuk,651355
+UTTAR PRADESH,29,Dharkar,113515
+UTTAR PRADESH,30,Dhobi,2432610
+UTTAR PRADESH,31,Dom,110353
+UTTAR PRADESH,32,Domar,24581
+UTTAR PRADESH,33,Dusadh,230593
+UTTAR PRADESH,34,Gharami,37
+UTTAR PRADESH,35,Ghasiya,5888
+UTTAR PRADESH,36,"Gond (excluding Mehrajganj, Sidharth Nagar, Basti, Gorakhpur, Deoria, Mau, Azamgarh, Jonpur, Balia, Gazipur, Varanasi, Mirzapur and Sonbhadra districts)",21992
+UTTAR PRADESH,37,Gual,340
+UTTAR PRADESH,38,Habura,6015
+UTTAR PRADESH,39,Hari,3643
+UTTAR PRADESH,40,Hela,52314
+UTTAR PRADESH,41,Kalabaz,11199
+UTTAR PRADESH,42,Kanjar,115968
+UTTAR PRADESH,43,Kapariya,20205
+UTTAR PRADESH,44,Karwal,7183
+UTTAR PRADESH,45,Khairaha,892
+UTTAR PRADESH,46,"Kharwar [ (excluding Benbansi) (excluding Deoria, Balia, Gazipur, Varanasi and Sonbhadra districts) ]",14796
+UTTAR PRADESH,47,Khatik,930554
+UTTAR PRADESH,48,Khorot,1219
+UTTAR PRADESH,49,Kol,422042
+UTTAR PRADESH,50,Kori,2293937
+UTTAR PRADESH,51,Korwa,1563
+UTTAR PRADESH,52,Lalbegi,560
+UTTAR PRADESH,53,Majhwar,23123
+UTTAR PRADESH,54,Mazhabi,14192
+UTTAR PRADESH,55,Musahar,257135
+UTTAR PRADESH,56,Nat,214344
+UTTAR PRADESH,57,Pankha (excluding Sonbhadra and Mirzapur districts),916
+UTTAR PRADESH,58,Parahiya (excluding Sonbhadra district),2446
+UTTAR PRADESH,59,"Pasi,  Tarmali",6522166
+UTTAR PRADESH,60,Patari (excluding Sonbhadra district),366
+UTTAR PRADESH,61,Rawat,213326
+UTTAR PRADESH,62,Saharya (excluding Lalitpur district),23644
+UTTAR PRADESH,63,Sanaurhiya,47
+UTTAR PRADESH,64,Sansiya,5689
+UTTAR PRADESH,65,Shilpkar,26706
+UTTAR PRADESH,66,Turaiha,28055
+Bihar,1,Bantar,135175
+Bihar,2,Bauri,2233
+Bihar,3,Bhogta,15103
+Bihar,4,Bhuiya,716269
+Bihar,5,Bhumij,1567
+Bihar,6,"Chamar, Mochi, Chamar-Rabidas, Chamar-Ravidas, Chamar-Rohidas,  Charmarkar",4900048
+Bihar,7,Chaupal,79728
+Bihar,8,Dabgar,5488
+Bihar,9,"Dhobi, Rajak",747528
+Bihar,10,"Dom, Dhangad, Bansphor, Dharikar, Dharkar, Domra",194596
+Bihar,11,"Dusadh, Dhari, Dharhi",4945165
+Bihar,12,Ghasi,354
+Bihar,13,Halalkhor,5435
+Bihar,14,"Hari, Mehtar, Bhangi",207549
+Bihar,15,Kanjar,2760
+Bihar,16,Kurariar,10269
+Bihar,17,Lalbegi,1039
+Bihar,18,Musahar,2725114
+Bihar,19,Nat,58819
+Bihar,20,"Pan, Sawasi, Panr",2195
+Bihar,21,Pasi,880738
+Bihar,22,Rajwar,285485
+Bihar,23,Turi,30497
+SIKKIM,1,Damai (Nepali),8714
+SIKKIM,2,"Kami (Nepali),  Lohar (Nepali)",17911
+SIKKIM,3,Majhi (Nepali),338
+SIKKIM,4,Sarki (Nepali),798
+MANIPUR,1,"Dhupi, Dhobi",122
+MANIPUR,2,Lois,85543
+MANIPUR,3,"Muchi, Ravidas",190
+MANIPUR,4,Namasudra,3747
+MANIPUR,5,Patni,3664
+MANIPUR,6,Sutradhar,92
+MANIPUR,7,Yaithibi,1532
+TRIPURA,1,Bagdi,510
+TRIPURA,2,Bhuimali,272
+TRIPURA,3,Bhunar,178
+TRIPURA,4,"Chamar,  Muchi",13579
+TRIPURA,5,Dandasi,5
+TRIPURA,6,Dhenuar,65
+TRIPURA,7,Dhoba,56513
+TRIPURA,8,Dum,41
+TRIPURA,9,Ghasi,204
+TRIPURA,10,Gour,6854
+TRIPURA,11,Gur,86
+TRIPURA,12,Jalia Kaibarta,106849
+TRIPURA,13,Kahar,357
+TRIPURA,14,Kalindi,135
+TRIPURA,15,Kan,27
+TRIPURA,16,Kanda,2574
+TRIPURA,17,Kanugh,49
+TRIPURA,18,Keot,302
+TRIPURA,19,Khadit,18
+TRIPURA,20,Kharia,1409
+TRIPURA,21,Koch,815
+TRIPURA,22,Koir,102
+TRIPURA,23,Kol,1079
+TRIPURA,24,Kora,117
+TRIPURA,25,Kotal,9
+TRIPURA,26,Mahisyadas,153034
+TRIPURA,27,Mali,55009
+TRIPURA,28,Mehtor,1851
+TRIPURA,29,Musahar,327
+TRIPURA,30,Namasudra,215267
+TRIPURA,31,Patni,7235
+TRIPURA,32,Sabar,4429
+TRIPURA,33,"Dhuli, Sabdakar, Badyakar",9344
+TRIPURA,34,"Natta, Nat",1643
+MEGHALAYA,1,Bansphor,250
+MEGHALAYA,2,"Bhuinmali, Mali",383
+MEGHALAYA,3,"Brittial Bania, Bania",308
+MEGHALAYA,4,"Dhupi, Dhobi",598
+MEGHALAYA,5,"Dugla, Dholi",57
+MEGHALAYA,6,Hira,61
+MEGHALAYA,7,Jalkeot,39
+MEGHALAYA,8,"Jhalo, Malo, Jhalo-Malo",1895
+MEGHALAYA,9,"Kaibartta, Jaliya",1143
+MEGHALAYA,10,Lalbegi,10
+MEGHALAYA,11,Mahara,26
+MEGHALAYA,12,"Mehtar, Bhangi",541
+MEGHALAYA,13,"Muchi, Rishi",1155
+MEGHALAYA,14,Namasudra,3376
+MEGHALAYA,15,Patni,1039
+MEGHALAYA,16,Sutradhar,285
+ASSAM,1,Bansphor,16359
+ASSAM,2,"Bhuinmali, Mali",69535
+ASSAM,3,"Brittial Bania, Bania",50598
+ASSAM,4,"Dhupi, Dhobi",52431
+ASSAM,5,"Dugla, Dholi",7991
+ASSAM,6,Hira,55300
+ASSAM,7,Jalkeot,24774
+ASSAM,8,"Jhalo, Malo,  Jhalo-Malo",80376
+ASSAM,9,"Kaibartta,  Jaliya",693219
+ASSAM,10,Lalbegi,790
+ASSAM,11,Mahara,1822
+ASSAM,12,"Mehtar, Bhangi",8835
+ASSAM,13,"Muchi, Rishi",77643
+ASSAM,14,Namasudra,631542
+ASSAM,15,Patni,181904
+ASSAM,16,Sutradhar,66303
+West Bengal,1,"Bagdi,  Duley",3058265
+West Bengal,2,Bahelia,5692
+West Bengal,3,Baiti,13753
+West Bengal,4,Bantar,138
+West Bengal,5,Bauri,1228635
+West Bengal,6,Beldar,5261
+West Bengal,7,Bhogta,18269
+West Bengal,8,Bhuimali,84956
+West Bengal,9,Bhuiya,140357
+West Bengal,10,Bind,70426
+West Bengal,11,"Chamar,  Charmakar,  Mochi,  Muchi,   Rabidas,   Ruidas,   Rishi",1039591
+West Bengal,12,Chaupal,5974
+West Bengal,13,Dabgar,252
+West Bengal,14,Damai (Nepali),18314
+West Bengal,15,"Dhoba,  Dhobi",385280
+West Bengal,16,Doai,9436
+West Bengal,17,"Dom,  Dhangad",352083
+West Bengal,18,"Dosadh,  Dusadh,  Dhari,  Dharhi",65429
+West Bengal,19,Ghasi,17909
+West Bengal,20,Gonrhi,9687
+West Bengal,21,Halalkhor,1174
+West Bengal,22,"Hari, Mehtar,  Mehtor,  Bhangi, Balmiki",431257
+West Bengal,23,Jalia Kaibartta,569448
+West Bengal,24,"Jhalo Malo,  Malo",303618
+West Bengal,25,Kadar,23179
+West Bengal,26,Kami (Nepali),52178
+West Bengal,27,Kandra,112038
+West Bengal,28,Kanjar,435
+West Bengal,29,Kaora,272801
+West Bengal,30,"Karenga,  Koranga",36612
+West Bengal,31,Kaur,13059
+West Bengal,32,"Keot,  Keyot",88530
+West Bengal,33,Khaira,129001
+West Bengal,34,Khatik,8837
+West Bengal,35,Koch,12123
+West Bengal,36,Konai,124126
+West Bengal,37,Konwar,4376
+West Bengal,38,Kotal,25430
+West Bengal,39,Kurariar,942
+West Bengal,40,Lalbegi,481
+West Bengal,41,Lohar,315093
+West Bengal,42,Mahar,34793
+West Bengal,43,Mal,306234
+West Bengal,44,Mallah,50252
+West Bengal,45,Musahar,20949
+West Bengal,46,Namasudra,3504642
+West Bengal,47,Nat,1146
+West Bengal,48,Nuniya,60941
+West Bengal,49,Paliya,105290
+West Bengal,50,"Pan,  Sawasi",28259
+West Bengal,51,Pasi,29491
+West Bengal,52,Patni,31188
+West Bengal,53,"Pod,  Poundra",2450260
+West Bengal,54,Rajbanshi,3801677
+West Bengal,55,Rajwar,112184
+West Bengal,56,Sarki (Nepali),13618
+West Bengal,57,Sunri (Excluding Saha),337609
+West Bengal,58,Tiyar,227800
+West Bengal,59,Turi,35116
+West Bengal,60,Chain,323595
+JHARKHAND,1,Bantar,353
+JHARKHAND,2,Bauri,186356
+JHARKHAND,3,Bhogta,223453
+JHARKHAND,4,Bhuiya,848151
+JHARKHAND,5,"Chamar, Mochi",1008507
+JHARKHAND,6,Chaupal,632
+JHARKHAND,7,Dabgar,4378
+JHARKHAND,8,Dhobi,251686
+JHARKHAND,9,"Dom, Dhangad",168052
+JHARKHAND,10,"Dusadh, Dhari, Dharhi",424330
+JHARKHAND,11,Ghasi,150520
+JHARKHAND,12,Halalkhor,580
+JHARKHAND,13,"Hari, Mehtar, Bhangi",58242
+JHARKHAND,14,Kanjar,405
+JHARKHAND,15,Kurariar,1475
+JHARKHAND,16,Lalbegi,1240
+JHARKHAND,17,Musahar,53096
+JHARKHAND,18,Nat,1286
+JHARKHAND,19,"Pan, Sawasi",26459
+JHARKHAND,20,Pasi,72357
+JHARKHAND,21,Rajwar,196320
+JHARKHAND,22,Turi,198344
+ODISHA,1,Adi Andhra,2051
+ODISHA,2,"Amant, Amat, Dandachhatra Majhi",36798
+ODISHA,3,Audhelia,48
+ODISHA,4,Badaik,14623
+ODISHA,5,"Bagheti, Baghuti",28434
+ODISHA,6,Bajikar,249
+ODISHA,7,Bari,130
+ODISHA,8,Bariki,4397
+ODISHA,9,"Basor, Burud",81
+ODISHA,10,"Bauri, Buna Bauri, Dasia Bauri",523127
+ODISHA,11,Bauti,1432
+ODISHA,12,Bavuri,470
+ODISHA,13,"Bedia, Bejia",594
+ODISHA,14,Beldar,3725
+ODISHA,15,Bhata,8904
+ODISHA,16,Bhoi,81431
+ODISHA,17,Chachati,29
+ODISHA,18,Chakali,188
+ODISHA,19,"Chamar, Chamara, Chamar-Ravidas, Chamar-Rohidas, Mochi, Muchi, Satnami",177331
+ODISHA,20,Chandala,5265
+ODISHA,21,Chandhai Maru,22
+ODISHA,22,Dandasi,62002
+ODISHA,23,"Dewar, Dhibara, Keuta, Kaibarta",995062
+ODISHA,24,Dhanwar,1680
+ODISHA,25,"Dhoba, Dhobi",644738
+ODISHA,26,"Dom, Dombo, Duria Dom",706232
+ODISHA,27,Dosadha,1912
+ODISHA,28,Ganda,653950
+ODISHA,29,"Ghantarghada, Ghantra",7266
+ODISHA,30,"Ghasi, Ghasia",114066
+ODISHA,31,Ghogia,829
+ODISHA,32,Ghusuria,8201
+ODISHA,33,Godagali,9
+ODISHA,34,Godari,71
+ODISHA,35,Godra,3337
+ODISHA,36,Gokha,212718
+ODISHA,37,"Gorait, Korait",442
+ODISHA,38,"Haddi, Hadi, Hari",228712
+ODISHA,39,Irika,304
+ODISHA,40,Jaggali,5854
+ODISHA,41,"Kandra, Kandara, Kadama, Kuduma, Kodma, Kodama",529717
+ODISHA,42,Karua,7322
+ODISHA,43,Katia,23866
+ODISHA,44,"Kela, Sapua Kela, Nalua Kela, Sabakhia Kela, Matia Kela",24296
+ODISHA,45,Khadala,87551
+ODISHA,46,"Kodalo, Khodalo",82
+ODISHA,47,Kori,309
+ODISHA,48,Kummari,454
+ODISHA,49,Kurunga,4972
+ODISHA,50,Laban,972
+ODISHA,51,Laheri,2897
+ODISHA,52,Madari,4226
+ODISHA,53,Madiga,2560
+ODISHA,54,Mahuria,5851
+ODISHA,55,"Mala, Jhala, Malo, Zala, Malha, Jhola",21313
+ODISHA,56,Mang,86
+ODISHA,57,Mangan,409
+ODISHA,58,"Mehra, Mahar",21304
+ODISHA,59,"Mehtar, Bhangi",2453
+ODISHA,60,Mewar,411
+ODISHA,61,Mundapotta,920
+ODISHA,62,Musahar,57
+ODISHA,63,Nagarchi,360
+ODISHA,64,Namasudra,153026
+ODISHA,65,Paidi,244
+ODISHA,66,Painda,511
+ODISHA,67,Pamidi,18
+ODISHA,68,"Pan, Pano, Buna Pana, Desua Pana",1205099
+ODISHA,69,Panchama,42
+ODISHA,70,Panika,5155
+ODISHA,71,Panka,6250
+ODISHA,72,Pantanti,37920
+ODISHA,73,Pap,10962
+ODISHA,74,Pasi,426
+ODISHA,75,"Patial, Patikar, Patratanti,  Patua",36887
+ODISHA,76,Rajna,455
+ODISHA,77,Relli,8917
+ODISHA,78,Sabakhia,709
+ODISHA,79,Samasi,1483
+ODISHA,80,Sanei,1136
+ODISHA,81,Sapari,121
+ODISHA,82,"Sauntia, Santia",35943
+ODISHA,83,Sidhria,783
+ODISHA,84,Sinduria,131
+ODISHA,85,"Siyal, Khajuria",31682
+ODISHA,86,Tamadia,1157
+ODISHA,87,Tamudia,9276
+ODISHA,88,Tanla,68988
+ODISHA,89,Turi,12134
+ODISHA,90,Ujia,20450
+ODISHA,91,"Valamiki, Valmiki",1402
+ODISHA,92,Mangali (in Koraput and Kalahandi districts),1214
+ODISHA,93,Mirgan (in Navrangpur district),2168
+CHHATTISGARH,1,Audhelia,6264
+CHHATTISGARH,2,"Bagri, Bagdi",283
+CHHATTISGARH,3,"Bahna, Bahana",62
+CHHATTISGARH,4,"Balahi, Balai",242
+CHHATTISGARH,5,Banchada,15
+CHHATTISGARH,6,"Barahar, Basod",5644
+CHHATTISGARH,7,Bargunda,13
+CHHATTISGARH,8,"Basor, Burud, Bansor, Bansodi,  Bansphor,  Basar",11377
+CHHATTISGARH,9,Bedia,134
+CHHATTISGARH,10,"Beldar, Sunkar",7691
+CHHATTISGARH,11,"Bhangi, Mehtar, Balmiki, Lalbegi,  Dharkar",19016
+CHHATTISGARH,12,Bhanumati,21
+CHHATTISGARH,13,Chadar,2779
+CHHATTISGARH,14,"Chamar, Chamari, Bairwa, Bhambhi,  Jatav,  Mochi,  Regar,  Nona, Rohidas,  Ramnami, Satnami,  Surjyabanshi,  Surjyaramnami,  Ahirwar,  Chamar, Mangan,  Raidas",2318964
+CHHATTISGARH,15,Chidar,71
+CHHATTISGARH,16,"Chikwa, Chikvi",21810
+CHHATTISGARH,17,Chitar,16
+CHHATTISGARH,18,"Dahait, Dahayat, Dahat",408
+CHHATTISGARH,19,Dewar,15479
+CHHATTISGARH,20,Dhanuk,281
+CHHATTISGARH,21,"Dhed, Dher",40
+CHHATTISGARH,22,Dohor,109
+CHHATTISGARH,23,"Dom, Dumar, Dome, Domar, Doris",21766
+CHHATTISGARH,24,"Ganda, Gandi",381459
+CHHATTISGARH,25,"Ghasi, Ghasia",140270
+CHHATTISGARH,26,Holiya,105
+CHHATTISGARH,27,Kanjar,58
+CHHATTISGARH,28,"Katia, Patharia",4386
+CHHATTISGARH,29,Khatik,5494
+CHHATTISGARH,30,"Koli, Kori",6294
+CHHATTISGARH,31,"Khangar, Kanera, Mirdha",2034
+CHHATTISGARH,32,Kuchbandhia,13
+CHHATTISGARH,33,"Mahar, Mehra, Mehar",245220
+CHHATTISGARH,34,"Mang, Mang Garodi, Mang Garudi,  Dankhani Mang,  Mang Mahasi,  Madari,  Garudi,  Radhe Mang",3423
+CHHATTISGARH,35,Meghwal,115
+CHHATTISGARH,36,Moghia,341
+CHHATTISGARH,37,Muskhan,7
+CHHATTISGARH,38,"Nat, Kalbelia, Sapera, Navdigar,  Kubutar",4993
+CHHATTISGARH,39,Pasi,4628
+CHHATTISGARH,40,Rujjhar,5
+CHHATTISGARH,41,"Sansi, Sansia",69
+CHHATTISGARH,42,Silawat,88
+CHHATTISGARH,43,Zamral,11
+CHHATTISGARH,44,Turi,8777
+MADHYA PRADESH,1,Audhelia,78
+MADHYA PRADESH,2,"Bagri, Bagdi (excluding Rajput, Thakur sub-castes among Bagri, Bagdi)",297861
+MADHYA PRADESH,3,"Bahna, Bahana",325
+MADHYA PRADESH,4,"Balahi, Balai",1331098
+MADHYA PRADESH,5,Banchada,32624
+MADHYA PRADESH,6,"Barahar, Basod",102157
+MADHYA PRADESH,7,Bargunda,30280
+MADHYA PRADESH,8,"Basor, Burud, Bansor, Bansodi,  Bansphor,  Basar",315640
+MADHYA PRADESH,9,Bedia,26794
+MADHYA PRADESH,10,"Beldar, Sunkar",33704
+MADHYA PRADESH,11,"Bhangi, Mehtar, Balmik, Lalbegi,  Dharkar",365769
+MADHYA PRADESH,12,Bhanumati,1788
+MADHYA PRADESH,13,Chadar,131444
+MADHYA PRADESH,14,"Chamar, Chamari, Bairwa, Bhambi,  Jatav,  Mochi,  Regar,  Nona, Rohidas,  Ramnami, Satnami,  Surjyabanshi,  Surjyaramnami,  Ahirwar,  Chamar Mangan,  Raidas",5368217
+MADHYA PRADESH,15,Chidar,36257
+MADHYA PRADESH,16,"Chikwa, Chikvi",3566
+MADHYA PRADESH,17,Chitar,175
+MADHYA PRADESH,18,"Dahait, Dahayat, Dahat",54735
+MADHYA PRADESH,19,Dewar,243
+MADHYA PRADESH,20,Dhanuk,105546
+MADHYA PRADESH,21,"Dhed, Dher",210
+MADHYA PRADESH,22,Dhobi,46575
+MADHYA PRADESH,23,Dohor,38038
+MADHYA PRADESH,24,"Dom, Dumar, Dome, Domar, Doris",45728
+MADHYA PRADESH,25,"Ganda, Gandi",1252
+MADHYA PRADESH,26,"Ghasi, Ghasia",8397
+MADHYA PRADESH,27,Holiya,16192
+MADHYA PRADESH,28,Kanjar,18216
+MADHYA PRADESH,29,"Katia, Patharia",170672
+MADHYA PRADESH,30,Khatik,161026
+MADHYA PRADESH,31,"Koli, Kori",656569
+MADHYA PRADESH,32,Kotwal,15720
+MADHYA PRADESH,33,"Khangar, Kanera, Mirdha",177232
+MADHYA PRADESH,34,Kuchbandhia,25970
+MADHYA PRADESH,35,Kumhar,249794
+MADHYA PRADESH,36,"Mahar, Mehra, Mehar, Mahara",819416
+MADHYA PRADESH,37,"Mang, Mang Garodi, Mang Garudi,  Dankhni Mang,  Mang Mahasi,  Madari,  Garudi,  Radhe Mang",29259
+MADHYA PRADESH,38,Meghwal,81148
+MADHYA PRADESH,39,Moghia,49580
+MADHYA PRADESH,40,Muskhan,212
+MADHYA PRADESH,41,"Nat, Kalbelia, Sapera, Navdigar,  Kubutar",111465
+MADHYA PRADESH,42,Pardhi,26793
+MADHYA PRADESH,43,Pasi,51582
+MADHYA PRADESH,44,Rujjhar,1619
+MADHYA PRADESH,45,"Sansi, Sansia",6731
+MADHYA PRADESH,46,Silawat,53770
+MADHYA PRADESH,47,Zamral,6844
+MADHYA PRADESH,48,Sargara,5662
+GUJARAT,1,Ager,261
+GUJARAT,2,"Bakad, Bant",88
+GUJARAT,3,"Bawa-Dedh, Dedh-Sadhu",9831
+GUJARAT,4,"Bhambi,  Bhambhi,  Asadaru,  Asodi,  Chamadia,  Chamar,  Chamar-Ravidas,  Chambhar,  Chamgar,  Haralayya,  Harali,  Khalpa,  Machigar,  Mochigar,  Madar,  Madig,  Mochi (in Dangs district and Umergaon Taluka of Valsad district only), Nalia,  Telugu Mochi,  Kamati Mochi,  Ranigar,  Rohidas,  Rohit,  Samgar",1032128
+GUJARAT,5,"Bhangi, Mehtar, Olgana, Rukhi,  Malkana,  Halalkhor,  Lalbegi,  Balmiki,  Korar,  Zadmalli,Barwashia, Barwasia, Jamphoda, Zampada, Zampda, Rushi, Valmiki",439444
+GUJARAT,6,"Chalvadi, Channayya",109
+GUJARAT,7,"Chenna Dasar, Holaya Dasar",69
+GUJARAT,8,Dangashia,3446
+GUJARAT,9,"Dhor, Kakkayya, Kankayya",182
+GUJARAT,10,Garmatang,225
+GUJARAT,11,"Garoda, Garo",72948
+GUJARAT,12,Halleer,95
+GUJARAT,13,"Halsar, Haslar, Hulasvar, Halasvar",66
+GUJARAT,14,"Holar, Valhar",637
+GUJARAT,15,"Holaya, Holer",66
+GUJARAT,16,Lingader,36
+GUJARAT,17,"Mahar, Taral, Dhegu Megu",28417
+GUJARAT,18,"Mahyavansi, Dhed, Dhedh, Vankar,  Maru Vankar,  Antyaj",1608359
+GUJARAT,19,"Mang, Matang, Minimadig",13238
+GUJARAT,20,Mang-Garudi,587
+GUJARAT,21,"Meghval, Meghwal, Menghvar",221531
+GUJARAT,22,Mukri,71
+GUJARAT,23,"Nadia, Hadi",50331
+GUJARAT,24,Pasi,4007
+GUJARAT,25,"Senva, Shenva, Chenva, Sedma,  Rawat",116307
+GUJARAT,26,Shemalia,3205
+GUJARAT,27,Thori,3385
+GUJARAT,28,"Tirgar, Tirbanda",7648
+GUJARAT,29,Turi,15449
+GUJARAT,30,"Turi Barot, Dedh Barot",16659
+GUJARAT,31,"Balahi, Balai",1172
+GUJARAT,32,"Bhangi, Mehtar",23275
+GUJARAT,34,"Chikwa, Chikvi",135
+GUJARAT,35,"Koli, Kori",30048
+GUJARAT,36,Kotwal,960
+Dadra & Nagar Haveli,1,Bhangi,652
+Dadra & Nagar Haveli,2,Chamar,1380
+Dadra & Nagar Haveli,3,Mahar,224
+Dadra & Nagar Haveli,4,Mahayavanshi,2072
+MAHARASHTRA,1,Ager,896
+MAHARASHTRA,2,Anamuk,68
+MAHARASHTRA,3,Aray Mala,350
+MAHARASHTRA,4,Arwa Mala,503
+MAHARASHTRA,5,"Bahna, Bahana",210
+MAHARASHTRA,6,"Bakad, Bant",1649
+MAHARASHTRA,7,"Balahi, Balai",16957
+MAHARASHTRA,8,"Basor, Burud, Bansor, Bansodi, Basod",55564
+MAHARASHTRA,9,"Beda Jangam, Budga Jangam",27168
+MAHARASHTRA,10,Bedar,14029
+MAHARASHTRA,11,"Bhambi, Bhambhi, Asadaru,  Asodi,  Chamadia,  Chamar,  Chamari,  Chambhar, Chamgar,  Haralayya,  Harali,  Khalpa,  Machigar,  Mochigar,  Madar,  Madig,  Mochi,  Telegu Mochi,  Kamati Mochi,  Ranigar,  Rohidas,  Nona,  Ramnami,  Rohit,  Samgar, Samagara,  Satnami,  Surjyabanshi,  Surjyaramnami, Charmakar, Pardeshi Chamar",1411072
+MAHARASHTRA,12,"Bhangi, Mehtar, Olgana, Rukhi,  Malkana,  Halalkhor,  Lalbegi,  Balmiki,  Korar,  Zadmalli, Hela",217166
+MAHARASHTRA,13,Bindla,625
+MAHARASHTRA,14,Byagara,379
+MAHARASHTRA,15,"Chalvadi, Channayya",3309
+MAHARASHTRA,16,"Chenna Dasar, Holaya Dasar,  Holeya Dasari",608
+MAHARASHTRA,17,"Dakkal, Dokkalwar",950
+MAHARASHTRA,18,"Dhor, Kakkayya, Kankayya, Dohor",116287
+MAHARASHTRA,19,"Dom, Dumar",3690
+MAHARASHTRA,20,"Ellamalvar, Yellammalawandlu",3306
+MAHARASHTRA,21,"Ganda, Gandi",585
+MAHARASHTRA,22,"Garoda, Garo",601
+MAHARASHTRA,23,"Ghasi, Ghasia",1989
+MAHARASHTRA,24,Halleer,102
+MAHARASHTRA,25,"Halsar, Haslar, Hulasvar, Halasvar",148
+MAHARASHTRA,26,"Holar, Valhar",108908
+MAHARASHTRA,27,"Holaya, Holer, Holeya, Holiya",18263
+MAHARASHTRA,28,"Kaikadi (in Akola,  Amravati,  Bhandara,  Buldana,  Nagpur,  Wardha and Yavatmal districts and Chandrapur district,  other than Rajura tahsil)a",5599
+MAHARASHTRA,29,"Katia, Patharia",5207
+MAHARASHTRA,30,"Khangar, Kanera, Mirdha",2020
+MAHARASHTRA,31,"Khatik, Chikwa, Chikvi",108491
+MAHARASHTRA,32,Kolupulvandlu,33
+MAHARASHTRA,33,Kori,16018
+MAHARASHTRA,34,Lingader,5298
+MAHARASHTRA,35,Madgi,56481
+MAHARASHTRA,36,Madiga,15318
+MAHARASHTRA,37,"Mahar, Mehra, Taral, Dhegu Megu",8006060
+MAHARASHTRA,38,"Mahyavanshi, Dhed, Vankar, Maru Vankar",14939
+MAHARASHTRA,39,Mala,15266
+MAHARASHTRA,40,Mala Dasari,1789
+MAHARASHTRA,41,Mala Hannai,27
+MAHARASHTRA,42,Mala Jangam,8491
+MAHARASHTRA,43,Mala Masti,17
+MAHARASHTRA,44,"Mala Sale, Netkani",269
+MAHARASHTRA,45,Mala Sanyasi,46
+MAHARASHTRA,46,"Mang, Matang, Minimadig, Dankhni Mang,  Mang Mahashi,  Madari,  Garudi,  Radhe Mang",2488531
+MAHARASHTRA,47,"Mang Garodi, Mang Garudi",39993
+MAHARASHTRA,48,Manne,2542
+MAHARASHTRA,49,Mashti,69
+MAHARASHTRA,50,"Meghval, Menghvar",40416
+MAHARASHTRA,51,Mitha Ayyalvar,38
+MAHARASHTRA,52,Mukri,54
+MAHARASHTRA,53,"Nadia, Hadi",333
+MAHARASHTRA,54,Pasi,24664
+MAHARASHTRA,55,Sansi,491
+MAHARASHTRA,56,"Shenva, Chenva, Sedma, Ravat",1326
+MAHARASHTRA,57,"Sindhollu, Chindollu",1002
+MAHARASHTRA,58,"Tirgar, Tirbanda",80
+MAHARASHTRA,59,Turi,490
+ANDHRA PRADESH,1,Adi Andhra,206524
+ANDHRA PRADESH,2,Adi Dravida,266089
+ANDHRA PRADESH,3,Anamuk,43
+ANDHRA PRADESH,4,Aray Mala,3393
+ANDHRA PRADESH,5,Arundhatiya,30190
+ANDHRA PRADESH,6,Arwa Mala,13485
+ANDHRA PRADESH,7,Bariki,1394
+ANDHRA PRADESH,8,Bavuri,890
+ANDHRA PRADESH,9,Beda (Budga) Jangam,111710
+ANDHRA PRADESH,10,Bindla,14815
+ANDHRA PRADESH,11,"Byagara, Byagari",9840
+ANDHRA PRADESH,12,Chachati,1466
+ANDHRA PRADESH,13,Chalavadi,338
+ANDHRA PRADESH,14,"Chamar, Mochi, Muchi, Chamar-Ravidas, Chamar-Rohidas",20380
+ANDHRA PRADESH,15,Chambhar,674
+ANDHRA PRADESH,16,Chandala,76
+ANDHRA PRADESH,17,"Dakkal, Dokkalwar",3820
+ANDHRA PRADESH,18,Dandasi,5351
+ANDHRA PRADESH,19,Dhor,2229
+ANDHRA PRADESH,20,"Dom, Dombara, Paidi, Pano",39169
+ANDHRA PRADESH,21,"Ellamalawar, Yellammalawandlu",1382
+ANDHRA PRADESH,22,"Ghasi,  Haddi,  Relli Chachandi",3093
+ANDHRA PRADESH,23,"Godagali, Godagula (in the districts of Srikakulam, Vizianagaram and Vishakhapatanam)",2782
+ANDHRA PRADESH,24,Godari,1020
+ANDHRA PRADESH,25,Gosangi,23401
+ANDHRA PRADESH,26,Holeya,442
+ANDHRA PRADESH,27,Holeya Dasari,11041
+ANDHRA PRADESH,28,Jaggali,3120
+ANDHRA PRADESH,29,Jambuvulu,6785
+ANDHRA PRADESH,30,"Kolupulavandlu, Pambada, Pambanda, Pambala",1101
+ANDHRA PRADESH,31,"Madasi Kuruva, Madari Kuruva",6843
+ANDHRA PRADESH,32,Madiga,6702609
+ANDHRA PRADESH,33,"Madiga Dasu, Mashteen",7868
+ANDHRA PRADESH,34,Mahar,36238
+ANDHRA PRADESH,35,"Mala, Mala Ayawaru",5570244
+ANDHRA PRADESH,36,Mala Dasari,16341
+ANDHRA PRADESH,37,Mala Dasu,11754
+ANDHRA PRADESH,38,Mala Hannai,99
+ANDHRA PRADESH,39,Malajangam,3484
+ANDHRA PRADESH,40,Mala Masti,783
+ANDHRA PRADESH,41,"Mala Sale, Netkani",133247
+ANDHRA PRADESH,42,Mala Sanyasi,192
+ANDHRA PRADESH,43,Mang,13365
+ANDHRA PRADESH,44,Mang Garodi,1397
+ANDHRA PRADESH,45,Manne,40381
+ANDHRA PRADESH,46,Mashti,1455
+ANDHRA PRADESH,47,Matangi,730
+ANDHRA PRADESH,48,Mehtar,7037
+ANDHRA PRADESH,49,Mitha Ayyalvar,3143
+ANDHRA PRADESH,50,Mundala,622
+ANDHRA PRADESH,51,"Paky, Moti, Thoti",5456
+ANDHRA PRADESH,52,Pamidi,2807
+ANDHRA PRADESH,53,"Panchama, Pariah",988
+ANDHRA PRADESH,54,Relli,135608
+ANDHRA PRADESH,55,Samagara,1129
+ANDHRA PRADESH,56,Samban,3754
+ANDHRA PRADESH,57,Sapru,466
+ANDHRA PRADESH,58,"Sindhollu, Chindollu",3931
+ANDHRA PRADESH,59,Yatala,1104
+ANDHRA PRADESH,60,Valluvan,809
+KARNATAKA,1,Adi Andhra,26486
+KARNATAKA,2,Adi Dravida,795620
+KARNATAKA,3,Adi Karnataka,2920942
+KARNATAKA,4,Adiya (in Coorg district)a,811
+KARNATAKA,5,Ager,6642
+KARNATAKA,6,Ajila,2448
+KARNATAKA,7,Anamuk,75
+KARNATAKA,8,Aray Mala,94
+KARNATAKA,9,Arunthathiyar,2385
+KARNATAKA,10,Arwa Mala,260
+KARNATAKA,11,Baira,4049
+KARNATAKA,12,Bakad,808
+KARNATAKA,13,Bant,1390
+KARNATAKA,14,Bakuda,1566
+KARNATAKA,15,Balagai,2180
+KARNATAKA,16,Bandi,678
+KARNATAKA,17,"Banjara, Lambani, Lambada, Lambadi, Lamani, Sugali, Sukali",1267036
+KARNATAKA,18,Bathada,2632
+KARNATAKA,19,"Beda Jangam, Budga Jangam",117164
+KARNATAKA,20,Bellara,1243
+KARNATAKA,21,"Bhangi, Mehtar, Olgana, Rukhi,  Malkana,  Halalkhor,  Lalbegi,  Balmiki, Korar,  Zadmalli",5281
+KARNATAKA,22,"Bhambi, Bhambhi, Asadaru, Asodi,  Chamadia,  Chamar,  Chambhar,  Chamgar,  Haralayya,  Harali,  Khalpa,  Machigar,  Mochigar,  Madar,  Madig,  Mochi,  Muchi,  Telegu Mochi,  Kamati Mochi,  Ranigar,  Rohidas,  Rohit,  Samgar",605486
+KARNATAKA,23,"Bhovi, Od, Odde, Vaddar, Waddar, Voddar, Woddar",1119315
+KARNATAKA,24,Bindla,149
+KARNATAKA,25,Byagara,2019
+KARNATAKA,26,Chakkiliyan,574
+KARNATAKA,27,"Chalavadi, Chalvadi, Channayya",219626
+KARNATAKA,28,Chandala,142
+KARNATAKA,29,"Chenna Dasar, Holaya Dasar",72003
+KARNATAKA,30,"Dakkal, Dokkalwar",530
+KARNATAKA,31,Dakkaliga,763
+KARNATAKA,32,"Dhor, Kakkayya, Kankayya",29199
+KARNATAKA,33,"Dom, Dombara, Paidi, Pano",26344
+KARNATAKA,34,"Ellamalwar, Yellammalawandlu",108
+KARNATAKA,35,Ganti Chores,4967
+KARNATAKA,36,"Garoda, Garo",170
+KARNATAKA,37,Godda,1532
+KARNATAKA,38,Gosangi,2219
+KARNATAKA,39,Halleer,3533
+KARNATAKA,40,"Halsar, Haslar, Hulasvar, Halasvar",9695
+KARNATAKA,41,Handi Jogis,22675
+KARNATAKA,42,Hasla,924
+KARNATAKA,43,"Holar, Valhar",1548
+KARNATAKA,44,"Holaya, Holer, Holeya",792785
+KARNATAKA,45,Holeya Dasari,382
+KARNATAKA,46,Jaggali,1061
+KARNATAKA,47,Jambuvulu,12411
+KARNATAKA,48,Kadaiyan,45
+KARNATAKA,49,Kalladi,1774
+KARNATAKA,50,Kepmaris,19
+KARNATAKA,51,Kolupulvandlu,1
+KARNATAKA,52,Koosa,202
+KARNATAKA,53,"Koracha, Korachar",55148
+KARNATAKA,54,"Korama, Korava, Koravar",209568
+KARNATAKA,55,"Kotegar, Metri",2370
+KARNATAKA,56,Kudumban,80
+KARNATAKA,57,Kuravan,637
+KARNATAKA,58,Lingader,76
+KARNATAKA,59,Machala,244
+KARNATAKA,60,Madari,1060
+KARNATAKA,61,Madiga,953913
+KARNATAKA,62,"Mahar, Taral, Dhegu Megu,",66068
+KARNATAKA,63,"Mahyavanshi, Dhed, Vankar, Maru Vankar",63
+KARNATAKA,64,Maila,1824
+KARNATAKA,65,Mala,20105
+KARNATAKA,66,Mala Dasari,4391
+KARNATAKA,67,Mala Hannai,17
+KARNATAKA,68,Mala Jangam,28
+KARNATAKA,69,Mala Masti,5
+KARNATAKA,70,"Mala Sale, Netkani",257
+KARNATAKA,71,Mala Sanyasi,552
+KARNATAKA,72,"Mang, Matang, Minimadig",26218
+KARNATAKA,73,"Mang Garudi, Mang Garodi",3434
+KARNATAKA,74,Manne,99
+KARNATAKA,75,Masthi,100
+KARNATAKA,76,Mavilan,42
+KARNATAKA,77,"Meghval, Menghvar",2057
+KARNATAKA,78,Moger,82807
+KARNATAKA,79,Mukri,11162
+KARNATAKA,80,Mundala,27417
+KARNATAKA,81,"Nadia, Hadi",1378
+KARNATAKA,82,Nalkadaya,765
+KARNATAKA,83,Nalakeyava,5942
+KARNATAKA,84,Nayadi,589
+KARNATAKA,85,Pale,9374
+KARNATAKA,86,Pallan,3592
+KARNATAKA,87,Pambada,711
+KARNATAKA,88,Panchama,450
+KARNATAKA,89,Panniandi,11
+KARNATAKA,90,"Paraiyan, Paraya",2418
+KARNATAKA,91,Paravan,3528
+KARNATAKA,92,Raneyar,3578
+KARNATAKA,93,Samagara,88215
+KARNATAKA,94,Samban,102
+KARNATAKA,95,Sapari,49
+KARNATAKA,96,Sillekyathas,35197
+KARNATAKA,97,"Sindhollu, Chindollu",1706
+KARNATAKA,98,Sudugadu Siddha,29457
+KARNATAKA,99,Thoti,1304
+KARNATAKA,100,"Tirgar, Tirbanda",81
+KARNATAKA,101,Valluvan,1115
+GOA,1,Bhangi (Hadi),309
+GOA,2,Chambhar,7295
+GOA,3,Mahar,12818
+GOA,4,Mahyavanshi (Vankar),129
+GOA,5,Mang,1156
+KERALA,1,Adi Andhra,1252
+KERALA,2,Adi Dravida,4272
+KERALA,3,Adi Karnataka,1629
+KERALA,4,Ajila,54
+KERALA,5,Arunthathiyar,2731
+KERALA,6,Ayyanavar,11168
+KERALA,7,Baira,1040
+KERALA,8,Bakuda,6321
+KERALA,9,Bathada,20
+KERALA,10,"Bharathar (other than Parathar), Paravan",35120
+KERALA,11,Chakkiliyan,37776
+KERALA,12,"Chamar, Muchi",207
+KERALA,13,Chandala,48
+KERALA,14,Cheruman,317218
+KERALA,15,Domban,756
+KERALA,16,Gosangi,32
+KERALA,18,Holeya,1060
+KERALA,19,Kadaiyan,1844
+KERALA,20,"Kakkalan, Kakkan",6133
+KERALA,21,Kalladi,38616
+KERALA,22,"Kanakkan, Padanna, Padannan",245593
+KERALA,23,"Kavara (other than Telugu speaking or Tamil speaking Balija, Kavarai, Gavara,   Gavarai, Gavarai Naidu, Balija Naidu, Gajalu Balija or Valai Chetty)",16162
+KERALA,24,Koosa,28
+KERALA,25,"Kootan, Koodan",5008
+KERALA,26,Kudumban,2707
+KERALA,27,"Kuravan, Sidhanar, Kuravar, Kurava, Sidhana",277377
+KERALA,28,Maila,239
+KERALA,29,"Malayan [in the areas comprising the Malabar district as specified by sub-section (2) of section 5 of the States Reorganisation Act,  1956 (37of 1956)]a",9581
+KERALA,30,"Mannan, Pathiyan, Perumannan, Vannan, Velan",232690
+KERALA,31,Moger (other than Mogeyar),24642
+KERALA,32,Mundala,252
+KERALA,33,Nalakeyava,274
+KERALA,34,Nalkadaya,1847
+KERALA,35,Nayadi,2828
+KERALA,36,Pallan,46934
+KERALA,37,Palluvan,5865
+KERALA,38,Pambada,22
+KERALA,39,Panan,51485
+KERALA,40,"Paraiyan, Parayan, Sambavar, Sambavan, Sambava, Paraya, Paraiya, Parayar",227433
+KERALA,41,"Pulayan, Cheramar, Pulaya, Pulayar, Cherama, Cheraman, Wayanad Pulayan, Wayanadan Pulayan, Matha, Matha Pulayan",1020790
+KERALA,42,Puthirai Vannan,440
+KERALA,43,Raneyar,10
+KERALA,44,Samagara,131
+KERALA,45,Samban,4986
+KERALA,46,"Semman, Chemman, Chemmar",2335
+KERALA,47,"Thandan (excluding Ezhuvas and Thiyyas who are known as Thandan, in the erstwhile Cochin and Malabar areas) and (Carpenters who are known as Thachan, in the erstwhile Cochin and Travancore State)",131533
+KERALA,48,Thoti,423
+KERALA,49,Vallon,568
+KERALA,50,Valluvan,18421
+KERALA,51,Vetan,22268
+KERALA,52,"Vettuvan, Pulaya Vettuvan (in the areas of erstwhile Cochin State only)",73909
+KERALA,53,Nerian,3
+Tamil Nadu,1,Adi Andhra,58362
+Tamil Nadu,2,Adi Dravida,7242176
+Tamil Nadu,3,Adi Karnataka,26729
+Tamil Nadu,4,Ajila,132
+Tamil Nadu,5,Arunthathiyar,1084162
+Tamil Nadu,6,Ayyanavar,899
+Tamil Nadu,7,Baira,2755
+Tamil Nadu,8,Bakuda,4837
+Tamil Nadu,9,Bandi,3082
+Tamil Nadu,10,Bellara,38
+Tamil Nadu,11,Bharatar,2177
+Tamil Nadu,12,Chakkiliyan,742597
+Tamil Nadu,13,Chalavadi,93
+Tamil Nadu,14,"Chamar,  Muchi",525
+Tamil Nadu,15,Chandala,109
+Tamil Nadu,16,Cheruman,1449
+Tamil Nadu,17,Devendrakulathan,85933
+Tamil Nadu,18,"Dom,  Dombara,  Paidi,  Pano",4027
+Tamil Nadu,19,Domban,16963
+Tamil Nadu,20,Godagali,36
+Tamil Nadu,21,Godda,674
+Tamil Nadu,22,Gosangi,3718
+Tamil Nadu,23,Holeya,35
+Tamil Nadu,24,Jaggali,894
+Tamil Nadu,25,Jambuvulu,13
+Tamil Nadu,26,Kadaiyan,11650
+Tamil Nadu,27,Kakkalan,8
+Tamil Nadu,28,Kalladi,400
+Tamil Nadu,29,"Kanakkan,  Padanna",205
+Tamil Nadu,31,Kavara,310
+Tamil Nadu,32,Koliyan,7703
+Tamil Nadu,33,Koosa,22
+Tamil Nadu,34,"Kootan,  Koodan",346
+Tamil Nadu,35,Kudumban,24406
+Tamil Nadu,36,"Kuravan,  Sidhanar",140754
+Tamil Nadu,37,Madari,247454
+Tamil Nadu,38,Madiga,5929
+Tamil Nadu,39,Maila,6
+Tamil Nadu,40,Mala,3800
+Tamil Nadu,41,Mannan,75
+Tamil Nadu,42,Mavilan,4026
+Tamil Nadu,43,Moger,156
+Tamil Nadu,44,Mundala,26
+Tamil Nadu,45,Nalakeyava,4
+Tamil Nadu,46,Nayadi,221
+Tamil Nadu,48,Pagadai,7546
+Tamil Nadu,49,Pallan,2329117
+Tamil Nadu,50,Palluvan,167
+Tamil Nadu,51,Pambada,1434
+Tamil Nadu,52,Panan,338
+Tamil Nadu,53,Panchama,57
+Tamil Nadu,54,Pannadi,4481
+Tamil Nadu,55,Panniandi,11401
+Tamil Nadu,56,"Paraiyan,  Parayan,  Sambavar",1822524
+Tamil Nadu,57,Paravan,2099
+Tamil Nadu,58,Pathiyan,1
+Tamil Nadu,59,"Pulayan,  Cheramar",8515
+Tamil Nadu,60,Puthirai Vannan,28351
+Tamil Nadu,61,Raneyar,9
+Tamil Nadu,62,Samagara,45
+Tamil Nadu,63,Samban,7383
+Tamil Nadu,64,Sapari,3
+Tamil Nadu,65,Semman,2529
+Tamil Nadu,66,Thandan,3278
+Tamil Nadu,67,Thoti,4235
+Tamil Nadu,68,Tiruvalluvar,1318
+Tamil Nadu,69,Vallon,258
+Tamil Nadu,70,Valluvan,90938
+Tamil Nadu,71,Vannan,6856
+Tamil Nadu,72,Vathiriyan,9109
+Tamil Nadu,73,Velan,512
+Tamil Nadu,74,Vetan,1165
+Tamil Nadu,75,Vettiyan,228
+Tamil Nadu,76,Vettuvan,4
+PUDUCHERRY,1,Adi Andhra,3757
+PUDUCHERRY,2,Adi Dravida,143049
+PUDUCHERRY,3,Chakkiliyan,2490
+PUDUCHERRY,4,Jambuvulu,521
+PUDUCHERRY,5,Kuravan,1163
+PUDUCHERRY,6,Madiga,728
+PUDUCHERRY,7,"Mala,  Mala Masti",3754
+PUDUCHERRY,8,Paky,3
+PUDUCHERRY,9,Pallan,3208
+PUDUCHERRY,10,"Parayan,  Sambavar",27803
+PUDUCHERRY,11,Samban,18
+PUDUCHERRY,12,Thoti,169
+PUDUCHERRY,13,Valluvan,4621
+PUDUCHERRY,14,Vetan,12
+PUDUCHERRY,15,Vettiyan,214
+PUDUCHERRY,16,Puthirai Vannan,91
