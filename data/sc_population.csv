@@ -1,146 +1,343 @@
 State,SC Code,SC Name,Total Population
-JAMMU & KASHMIR,001,Barwala,33225
-JAMMU & KASHMIR,002,Basith,24407
-JAMMU & KASHMIR,003,Batwal,43945
-JAMMU & KASHMIR,004,"Chamar or Ramdasia, Chamar-Ravidas, Chamar-Rohidas",212032
-JAMMU & KASHMIR,005,"Chura, Bhangi, Balmiki, Mehtar",6918
-JAMMU & KASHMIR,006,Dhyar,8343
-JAMMU & KASHMIR,007,"Doom or Mahasha, Dumna",193803
-JAMMU & KASHMIR,008,Gardi,4596
-JAMMU & KASHMIR,009,Jolaha,306
-JAMMU & KASHMIR,010,Megh or Kabirpanthi,359105
-JAMMU & KASHMIR,011,Ratal,2784
-JAMMU & KASHMIR,012,Saryara,15825
-JAMMU & KASHMIR,013,Watal,146
-HIMACHAL PRADESH,001,Ad Dharmi,6217
-HIMACHAL PRADESH,002,"Badhi, Nagalu",22352
-HIMACHAL PRADESH,003,"Balmiki,  Bhangi,  Chuhra, Chura,  Chuhre",34690
-HIMACHAL PRADESH,004,Bandhela,58
-HIMACHAL PRADESH,005,Bangali,4294
-HIMACHAL PRADESH,006,Banjara,3285
-HIMACHAL PRADESH,007,Bansi,1419
-HIMACHAL PRADESH,008,Barad,5890
-HIMACHAL PRADESH,009,"Barar, Burar, Berar",116
-HIMACHAL PRADESH,010,Batwal,16690
-HIMACHAL PRADESH,011,"Bauria, Bawaria",497
-HIMACHAL PRADESH,012,Bazigar,2365
-HIMACHAL PRADESH,013,"Bhanjra, Bhanjre",4917
-HIMACHAL PRADESH,014,"Chamar, Jatia Chamar, Rehgar,  Raigar,  Ramdasi, Ravidasi,  Ramdasia,  Mochi",458838
-HIMACHAL PRADESH,015,Chanal,24340
-HIMACHAL PRADESH,016,"Chhimbe, Dhobi",18076
-HIMACHAL PRADESH,017,Dagi,4683
-HIMACHAL PRADESH,018,Darain,544
-HIMACHAL PRADESH,019,"Darai, Daryai",10982
-HIMACHAL PRADESH,020,"Daule, Daole",4134
-HIMACHAL PRADESH,021,"Dhaki, Toori",9657
-HIMACHAL PRADESH,022,Dhanak,172
-HIMACHAL PRADESH,023,"Dhaogri, Dhuai",1606
-HIMACHAL PRADESH,024,"Dhogri, Dhangri, Siggi",6033
-HIMACHAL PRADESH,025,"Doom, Doomna, Dumna, Dumne,  Mahasha",83757
-HIMACHAL PRADESH,026,Gagra,33
-HIMACHAL PRADESH,027,"Gandhila, Gandil Gondola",92
-HIMACHAL PRADESH,028,Hali,43218
-HIMACHAL PRADESH,029,Hesi,3209
-HIMACHAL PRADESH,030,Jogi,21096
-HIMACHAL PRADESH,031,"Julaha, Julahe, Kabirpanthi,  Keer",155956
-HIMACHAL PRADESH,032,"Kamoh, Dagoli",316
-HIMACHAL PRADESH,033,Karoack,38
-HIMACHAL PRADESH,034,Khatik,587
-HIMACHAL PRADESH,035,"Kori, Koli",499473
-HIMACHAL PRADESH,036,Lohar,170046
-HIMACHAL PRADESH,037,"Marija, Marecha",26
-HIMACHAL PRADESH,038,Mazhabi,460
-HIMACHAL PRADESH,039,Megh,1779
-HIMACHAL PRADESH,040,Nat,311
-HIMACHAL PRADESH,041,Od,1135
-HIMACHAL PRADESH,042,Pasi,1496
-HIMACHAL PRADESH,043,Perna,15
-HIMACHAL PRADESH,044,"Phrera,  Pherera",1744
-HIMACHAL PRADESH,045,"Rehar, Rehara",3018
-HIMACHAL PRADESH,046,Sanhai,2585
-HIMACHAL PRADESH,047,Sanhal,220
-HIMACHAL PRADESH,048,"Sansi, Bhedkut, Manesh",2276
-HIMACHAL PRADESH,049,Sansoi,1389
-HIMACHAL PRADESH,050,Sapela,62
-HIMACHAL PRADESH,051,"Sarde, Sarera, Sarare, Siryare,  Sarehde",15943
-HIMACHAL PRADESH,052,Sikligar,1476
-HIMACHAL PRADESH,053,Sipi,26907
-HIMACHAL PRADESH,054,Sirkiband,63
-HIMACHAL PRADESH,055,Teli,9425
-HIMACHAL PRADESH,056,"Thathiar, Thathera",662
-HIMACHAL PRADESH,057,Barwala,285
-PUNJAB,001,Ad Dharmi,1017192
-PUNJAB,002,"Balmiki, Chuhra, Bhangi",866953
-PUNJAB,003,Bangali,4690
-PUNJAB,004,"Barar, Burar, Berar",8451
-PUNJAB,005,"Batwal, Barwala",19979
-PUNJAB,006,"Bauria, Bawaria",125259
-PUNJAB,007,Bazigar,241125
-PUNJAB,008,Bhanjra,3659
-PUNJAB,009,"Chamar, Jatia Chamar, Rehgar,  Raigar,  Ramdasi,  Ravidasi, Ramdasia, Ramdasia Sikh,  Ravidasia,  Ravidasia Sikh",2078132
-PUNJAB,010,Chanal,97
-PUNJAB,011,Dagi,322
-PUNJAB,012,Darain,865
-PUNJAB,013,"Deha, Dhaya, Dhea",10560
-PUNJAB,014,Dhanak,89406
-PUNJAB,015,"Dhogri, Dhangri, Siggi",391
-PUNJAB,016,"Dumna, Mahasha, Doom",202710
-PUNJAB,017,Gagra,799
-PUNJAB,018,"Gandhila, Gandil Gondola",3513
-PUNJAB,019,"Kabirpanthi, Julaha",84711
-PUNJAB,020,Khatik,14482
-PUNJAB,021,"Kori, Koli",24921
-PUNJAB,022,"Marija, Marecha",260
-PUNJAB,023,"Mazhabi, Mazhabi Sikh",2633921
-PUNJAB,024,Megh,141023
-PUNJAB,025,Nat,3902
-PUNJAB,026,Od,32061
-PUNJAB,027,Pasi,39111
-PUNJAB,028,Perna,68
-PUNJAB,029,Pherera,80
-PUNJAB,030,Sanhai,359
-PUNJAB,031,Sanhal,1538
-PUNJAB,032,"Sansi, Bhedkut, Manesh",122201
-PUNJAB,033,Sansoi,456
-PUNJAB,034,Sapela,5872
-PUNJAB,035,Sarera,14419
-PUNJAB,036,Sikligar,11807
-PUNJAB,037,Sirkiband,57555
-PUNJAB,038,Mochi,8763
-PUNJAB,039,"Mahatam, Rai Sikh",516695
-CHANDIGARH,001,Ad Dharmi,3495
-CHANDIGARH,002,Bangali,589
-CHANDIGARH,003,"Barar,  Burar or Berar",243
-CHANDIGARH,004,"Batwal, Barwala",281
-CHANDIGARH,005,Bauria or Bawaria,410
-CHANDIGARH,006,Bazigar,1748
-CHANDIGARH,007,"Balmiki, Chura or Bhangi",79458
-CHANDIGARH,008,Bhanjra,325
-CHANDIGARH,009,"Chamar,  Jatia Chamar,  Rehgar,   Raigar,   Ramdasi or Ravidasi",59957
-CHANDIGARH,010,Chanal,86
-CHANDIGARH,011,Dagi,98
-CHANDIGARH,012,Darain,78
-CHANDIGARH,013,Dhanak,2858
-CHANDIGARH,014,"Dhogri,  Dhangri or Siggi",127
-CHANDIGARH,015,"Dumna,  Mahasha or Doom",660
-CHANDIGARH,016,Gagra,92
-CHANDIGARH,017,Gandhila or Gandil Gondola,95
-CHANDIGARH,018,Kabirpanthi or Julaha,4313
-CHANDIGARH,019,Khatik,2608
-CHANDIGARH,020,Kori or Koli,4023
-CHANDIGARH,021,Marija or Marecha,60
-CHANDIGARH,022,Mazhabi,3166
-CHANDIGARH,023,Megh,468
-CHANDIGARH,024,Nat,225
-CHANDIGARH,025,Od,94
-CHANDIGARH,026,Pasi,21063
-CHANDIGARH,027,Perna,33
-CHANDIGARH,028,Pherera,23
-CHANDIGARH,029,Sanhai,32
-CHANDIGARH,030,Sanhal,90
-CHANDIGARH,031,"Sansi,  Bhedkut or Manesh",3795
-CHANDIGARH,032,Sansoi,263
-CHANDIGARH,033,Sapela,47
-CHANDIGARH,034,Sarera,467
-CHANDIGARH,035,Sikligar,426
-CHANDIGARH,036,Sirkiband,461
+JAMMU & KASHMIR,1,Barwala,33225
+JAMMU & KASHMIR,2,Basith,24407
+JAMMU & KASHMIR,3,Batwal,43945
+JAMMU & KASHMIR,4,"Chamar or Ramdasia, Chamar-Ravidas, Chamar-Rohidas",212032
+JAMMU & KASHMIR,5,"Chura, Bhangi, Balmiki, Mehtar",6918
+JAMMU & KASHMIR,6,Dhyar,8343
+JAMMU & KASHMIR,7,"Doom or Mahasha, Dumna",193803
+JAMMU & KASHMIR,8,Gardi,4596
+JAMMU & KASHMIR,9,Jolaha,306
+JAMMU & KASHMIR,10,Megh or Kabirpanthi,359105
+JAMMU & KASHMIR,11,Ratal,2784
+JAMMU & KASHMIR,12,Saryara,15825
+JAMMU & KASHMIR,13,Watal,146
+HIMACHAL PRADESH,1,Ad Dharmi,6217
+HIMACHAL PRADESH,2,"Badhi, Nagalu",22352
+HIMACHAL PRADESH,3,"Balmiki,  Bhangi,  Chuhra, Chura,  Chuhre",34690
+HIMACHAL PRADESH,4,Bandhela,58
+HIMACHAL PRADESH,5,Bangali,4294
+HIMACHAL PRADESH,6,Banjara,3285
+HIMACHAL PRADESH,7,Bansi,1419
+HIMACHAL PRADESH,8,Barad,5890
+HIMACHAL PRADESH,9,"Barar, Burar, Berar",116
+HIMACHAL PRADESH,10,Batwal,16690
+HIMACHAL PRADESH,11,"Bauria, Bawaria",497
+HIMACHAL PRADESH,12,Bazigar,2365
+HIMACHAL PRADESH,13,"Bhanjra, Bhanjre",4917
+HIMACHAL PRADESH,14,"Chamar, Jatia Chamar, Rehgar,  Raigar,  Ramdasi, Ravidasi,  Ramdasia,  Mochi",458838
+HIMACHAL PRADESH,15,Chanal,24340
+HIMACHAL PRADESH,16,"Chhimbe, Dhobi",18076
+HIMACHAL PRADESH,17,Dagi,4683
+HIMACHAL PRADESH,18,Darain,544
+HIMACHAL PRADESH,19,"Darai, Daryai",10982
+HIMACHAL PRADESH,20,"Daule, Daole",4134
+HIMACHAL PRADESH,21,"Dhaki, Toori",9657
+HIMACHAL PRADESH,22,Dhanak,172
+HIMACHAL PRADESH,23,"Dhaogri, Dhuai",1606
+HIMACHAL PRADESH,24,"Dhogri, Dhangri, Siggi",6033
+HIMACHAL PRADESH,25,"Doom, Doomna, Dumna, Dumne,  Mahasha",83757
+HIMACHAL PRADESH,26,Gagra,33
+HIMACHAL PRADESH,27,"Gandhila, Gandil Gondola",92
+HIMACHAL PRADESH,28,Hali,43218
+HIMACHAL PRADESH,29,Hesi,3209
+HIMACHAL PRADESH,30,Jogi,21096
+HIMACHAL PRADESH,31,"Julaha, Julahe, Kabirpanthi,  Keer",155956
+HIMACHAL PRADESH,32,"Kamoh, Dagoli",316
+HIMACHAL PRADESH,33,Karoack,38
+HIMACHAL PRADESH,34,Khatik,587
+HIMACHAL PRADESH,35,"Kori, Koli",499473
+HIMACHAL PRADESH,36,Lohar,170046
+HIMACHAL PRADESH,37,"Marija, Marecha",26
+HIMACHAL PRADESH,38,Mazhabi,460
+HIMACHAL PRADESH,39,Megh,1779
+HIMACHAL PRADESH,40,Nat,311
+HIMACHAL PRADESH,41,Od,1135
+HIMACHAL PRADESH,42,Pasi,1496
+HIMACHAL PRADESH,43,Perna,15
+HIMACHAL PRADESH,44,"Phrera,  Pherera",1744
+HIMACHAL PRADESH,45,"Rehar, Rehara",3018
+HIMACHAL PRADESH,46,Sanhai,2585
+HIMACHAL PRADESH,47,Sanhal,220
+HIMACHAL PRADESH,48,"Sansi, Bhedkut, Manesh",2276
+HIMACHAL PRADESH,49,Sansoi,1389
+HIMACHAL PRADESH,50,Sapela,62
+HIMACHAL PRADESH,51,"Sarde, Sarera, Sarare, Siryare,  Sarehde",15943
+HIMACHAL PRADESH,52,Sikligar,1476
+HIMACHAL PRADESH,53,Sipi,26907
+HIMACHAL PRADESH,54,Sirkiband,63
+HIMACHAL PRADESH,55,Teli,9425
+HIMACHAL PRADESH,56,"Thathiar, Thathera",662
+HIMACHAL PRADESH,57,Barwala,285
+PUNJAB,1,Ad Dharmi,1017192
+PUNJAB,2,"Balmiki, Chuhra, Bhangi",866953
+PUNJAB,3,Bangali,4690
+PUNJAB,4,"Barar, Burar, Berar",8451
+PUNJAB,5,"Batwal, Barwala",19979
+PUNJAB,6,"Bauria, Bawaria",125259
+PUNJAB,7,Bazigar,241125
+PUNJAB,8,Bhanjra,3659
+PUNJAB,9,"Chamar, Jatia Chamar, Rehgar,  Raigar,  Ramdasi,  Ravidasi, Ramdasia, Ramdasia Sikh,  Ravidasia,  Ravidasia Sikh",2078132
+PUNJAB,10,Chanal,97
+PUNJAB,11,Dagi,322
+PUNJAB,12,Darain,865
+PUNJAB,13,"Deha, Dhaya, Dhea",10560
+PUNJAB,14,Dhanak,89406
+PUNJAB,15,"Dhogri, Dhangri, Siggi",391
+PUNJAB,16,"Dumna, Mahasha, Doom",202710
+PUNJAB,17,Gagra,799
+PUNJAB,18,"Gandhila, Gandil Gondola",3513
+PUNJAB,19,"Kabirpanthi, Julaha",84711
+PUNJAB,20,Khatik,14482
+PUNJAB,21,"Kori, Koli",24921
+PUNJAB,22,"Marija, Marecha",260
+PUNJAB,23,"Mazhabi, Mazhabi Sikh",2633921
+PUNJAB,24,Megh,141023
+PUNJAB,25,Nat,3902
+PUNJAB,26,Od,32061
+PUNJAB,27,Pasi,39111
+PUNJAB,28,Perna,68
+PUNJAB,29,Pherera,80
+PUNJAB,30,Sanhai,359
+PUNJAB,31,Sanhal,1538
+PUNJAB,32,"Sansi, Bhedkut, Manesh",122201
+PUNJAB,33,Sansoi,456
+PUNJAB,34,Sapela,5872
+PUNJAB,35,Sarera,14419
+PUNJAB,36,Sikligar,11807
+PUNJAB,37,Sirkiband,57555
+PUNJAB,38,Mochi,8763
+PUNJAB,39,"Mahatam, Rai Sikh",516695
+CHANDIGARH,1,Ad Dharmi,3495
+CHANDIGARH,2,Bangali,589
+CHANDIGARH,3,"Barar,  Burar or Berar",243
+CHANDIGARH,4,"Batwal, Barwala",281
+CHANDIGARH,5,Bauria or Bawaria,410
+CHANDIGARH,6,Bazigar,1748
+CHANDIGARH,7,"Balmiki, Chura or Bhangi",79458
+CHANDIGARH,8,Bhanjra,325
+CHANDIGARH,9,"Chamar,  Jatia Chamar,  Rehgar,   Raigar,   Ramdasi or Ravidasi",59957
+CHANDIGARH,10,Chanal,86
+CHANDIGARH,11,Dagi,98
+CHANDIGARH,12,Darain,78
+CHANDIGARH,13,Dhanak,2858
+CHANDIGARH,14,"Dhogri,  Dhangri or Siggi",127
+CHANDIGARH,15,"Dumna,  Mahasha or Doom",660
+CHANDIGARH,16,Gagra,92
+CHANDIGARH,17,Gandhila or Gandil Gondola,95
+CHANDIGARH,18,Kabirpanthi or Julaha,4313
+CHANDIGARH,19,Khatik,2608
+CHANDIGARH,20,Kori or Koli,4023
+CHANDIGARH,21,Marija or Marecha,60
+CHANDIGARH,22,Mazhabi,3166
+CHANDIGARH,23,Megh,468
+CHANDIGARH,24,Nat,225
+CHANDIGARH,25,Od,94
+CHANDIGARH,26,Pasi,21063
+CHANDIGARH,27,Perna,33
+CHANDIGARH,28,Pherera,23
+CHANDIGARH,29,Sanhai,32
+CHANDIGARH,30,Sanhal,90
+CHANDIGARH,31,"Sansi,  Bhedkut or Manesh",3795
+CHANDIGARH,32,Sansoi,263
+CHANDIGARH,33,Sapela,47
+CHANDIGARH,34,Sarera,467
+CHANDIGARH,35,Sikligar,426
+CHANDIGARH,36,Sirkiband,461
+UTTARAKHAND,1,Agariya,3239
+UTTARAKHAND,2,Badhik,313
+UTTARAKHAND,3,Badi,2147
+UTTARAKHAND,4,Baheliya,3539
+UTTARAKHAND,5,Baiga,179
+UTTARAKHAND,6,Baiswar,127
+UTTARAKHAND,7,Bajaniya,361
+UTTARAKHAND,8,Bajgi,23732
+UTTARAKHAND,9,Balahar,79
+UTTARAKHAND,10,Balai,733
+UTTARAKHAND,11,Balmiki,112383
+UTTARAKHAND,12,Bangali,22015
+UTTARAKHAND,13,Banmanus,11
+UTTARAKHAND,14,Bansphor,653
+UTTARAKHAND,15,Barwar,462
+UTTARAKHAND,16,Basor,177
+UTTARAKHAND,17,Bawariya,81
+UTTARAKHAND,18,Beldar,519
+UTTARAKHAND,19,Beriya,149
+UTTARAKHAND,20,Bhantu,32
+UTTARAKHAND,21,Bhuiya,1921
+UTTARAKHAND,22,Bhuyiar,4796
+UTTARAKHAND,23,Boria,60
+UTTARAKHAND,24,"Chamar,  Dhusia,  Jhusia,  Jatava",548813
+UTTARAKHAND,25,Chero,40
+UTTARAKHAND,26,Dabgar,36
+UTTARAKHAND,27,Dhangar,1240
+UTTARAKHAND,28,Dhanuk,1486
+UTTARAKHAND,29,Dharkar,216
+UTTARAKHAND,30,Dhobi,18300
+UTTARAKHAND,31,Dom,30140
+UTTARAKHAND,32,Domar,155
+UTTARAKHAND,33,Dusadh,2759
+UTTARAKHAND,34,Gharami,171
+UTTARAKHAND,35,Ghasiya,418
+UTTARAKHAND,36,Gond,3143
+UTTARAKHAND,37,Gual,1128
+UTTARAKHAND,38,Habura,866
+UTTARAKHAND,39,Hari,340
+UTTARAKHAND,40,Hela,5
+UTTARAKHAND,41,Kalabaz,339
+UTTARAKHAND,42,Kanjar,4689
+UTTARAKHAND,43,Kapariya,189
+UTTARAKHAND,44,Karwal,222
+UTTARAKHAND,45,Khairaha,246
+UTTARAKHAND,46,Kharwar (excluding Benbansi),1088
+UTTARAKHAND,47,Khatik,8382
+UTTARAKHAND,48,Khorot,187
+UTTARAKHAND,49,Kol,11977
+UTTARAKHAND,50,Kori,40245
+UTTARAKHAND,51,Korwa,100
+UTTARAKHAND,52,Lalbegi,28
+UTTARAKHAND,53,Majhwar,827
+UTTARAKHAND,54,Mazhabi,6038
+UTTARAKHAND,55,Musahar,718
+UTTARAKHAND,56,Nat,1177
+UTTARAKHAND,57,Pankha,38
+UTTARAKHAND,58,Parahiya,56
+UTTARAKHAND,59,"Pasi,  Tarmali",19432
+UTTARAKHAND,60,Patari,300
+UTTARAKHAND,61,Saharya,88
+UTTARAKHAND,62,Sanaurhiya,502
+UTTARAKHAND,63,Sansiya,1412
+UTTARAKHAND,64,Shilpkar,929267
+UTTARAKHAND,65,Turaiha,4411
+Haryana,1,Ad Dharmi,2256
+Haryana,2,"Balmiki, Chura, Bhangi",938001
+Haryana,3,Bangali,4727
+Haryana,4,"Barar, Burar, Berar",1026
+Haryana,5,"Batwal, Barwala",669
+Haryana,6,"Bauria, Bawaria",74485
+Haryana,7,Bazigar,138163
+Haryana,8,Bhanjra,2349
+Haryana,9,"Chamar, Jatia Chamar, Rehgar,  Raigar,  Ramdasi,  Ravidasi, Balahi, Batoi, Bhatoi, Bhambi, Chamar-Rohidas, Jatav, Jatava, Mochi, Ramdasia",2429137
+Haryana,10,Chanal,181
+Haryana,11,Dagi,349
+Haryana,12,Darain,76
+Haryana,13,"Deha, Dhaya, Dhea",22394
+Haryana,14,Dhanak,581275
+Haryana,15,"Dhogri, Dhangri, Siggi",1222
+Haryana,16,"Dumna, Mahasha, Doom",27764
+Haryana,17,Gagra,160
+Haryana,18,"Gandhila, Gandil Gondola",507
+Haryana,19,"Kabirpanthi, Julaha",52339
+Haryana,20,Khatik,57825
+Haryana,21,"Kori, Koli",99776
+Haryana,22,"Marija, Marecha",334
+Haryana,23,"Mazhabi, Mazhabi Sikh",141681
+Haryana,24,"Megh, Meghwal",58975
+Haryana,25,"Nat, Badi",15447
+Haryana,26,Od,166161
+Haryana,27,Pasi,51350
+Haryana,28,Perna,1849
+Haryana,29,Pherera,22
+Haryana,30,Sanhai,301
+Haryana,31,Sanhal,146
+Haryana,32,"Sansi, Bhedkut, Manesh",50684
+Haryana,33,Sansoi,61
+Haryana,34,"Sapela, Sapera",22016
+Haryana,35,Sarera,80
+Haryana,36,"Sikligar, Bariya",20990
+Haryana,37,Sirkiband,13665
+Delhi,1,Adi-Dharmi,6201
+Delhi,2,Agria,2771
+Delhi,3,Aheria,18909
+Delhi,4,Balai,98264
+Delhi,5,Banjara,18739
+Delhi,6,Bawaria,8164
+Delhi,7,Bazigar,243
+Delhi,8,Bhangi,11665
+Delhi,9,Bhil,1773
+Delhi,10,"Chamar,  Chanwar Chamar,  Jatya or Jatav Chamar,   Mochi,   Ramdasia,   Ravidasi,   Raidasi,   Rehgarh or Raigar",1075569
+Delhi,11,Chohra (Sweeper),1638
+Delhi,12,Chuhra (Balmiki),577281
+Delhi,13,Dhanak or Dhanuk,76115
+Delhi,14,Dhobi,177675
+Delhi,15,Dom,3955
+Delhi,16,Gharrami,674
+Delhi,17,Julaha (Weaver),66186
+Delhi,18,Kabirpanthi,5312
+Delhi,19,Kachhandha,579
+Delhi,20,Kanjar or Giarah,10120
+Delhi,21,Khatik,198124
+Delhi,22,Koli,198594
+Delhi,23,Lalbegi,167
+Delhi,24,Madari,134
+Delhi,25,Mallah,92012
+Delhi,26,Mazhabi,2829
+Delhi,27,Meghwal,5687
+Delhi,28,Naribut,2839
+Delhi,29,"Nat (Rana), Badi",5916
+Delhi,30,Pasi,59400
+Delhi,31,Perna,1758
+Delhi,32,Sansi or Bhedkut,23890
+Delhi,33,Sapera,2111
+Delhi,34,Sikligar,17307
+Delhi,35,Singiwala or Kalbelia,990
+Delhi,36,Sirkiband,7073
+RAJASTHAN,1,Adi Dharmi,412
+RAJASTHAN,2,Aheri,5567
+RAJASTHAN,3,Badi,15833
+RAJASTHAN,4,"Bagri, Bagdi",64334
+RAJASTHAN,5,"Bairwa, Berwa",1260685
+RAJASTHAN,6,Bajgar,911
+RAJASTHAN,7,Balai,708518
+RAJASTHAN,8,"Bansphor, Bansphod",9187
+RAJASTHAN,9,Baori,402513
+RAJASTHAN,10,"Bargi, Vargi, Birgi",12096
+RAJASTHAN,11,Bawaria,62585
+RAJASTHAN,12,"Bedia, Beria",4833
+RAJASTHAN,13,Bhand,25714
+RAJASTHAN,14,"Bhangi, Chura, Mehtar, Olgana,  Rukhi,  Malkana,  Halalkhor,  Lalbegi,  Balmiki,  Valmiki,  Korar,  Zadmalli",466313
+RAJASTHAN,15,Bidakia,456
+RAJASTHAN,16,Bola,2397
+RAJASTHAN,17,"Chamar, Bhambhi, Bambhi, Bhambi, Jatia, Jatav, Jatava, Mochi, Raidas, Rohidas,  Regar,  Raigar, Ramdasia, Asadaru, Asodi, Chamadia,  Chambhar, Chamgar, Haralayya, Harali, Khalpa, Machigar, Mochigar,  Madar,  Madig,  Telegu Mochi,  Kamati Mochi, Ranigar, Rohit, Samgar",2491551
+RAJASTHAN,18,Chandal,1415
+RAJASTHAN,19,Dabgar,3169
+RAJASTHAN,20,"Dhanak, Dhanuk",114159
+RAJASTHAN,21,Dhankia,1447
+RAJASTHAN,22,Dhobi,190273
+RAJASTHAN,23,Dholi,134287
+RAJASTHAN,24,"Dome, Dom",4507
+RAJASTHAN,25,Gandia,382
+RAJASTHAN,26,"Garancha, Gancha",11566
+RAJASTHAN,27,"Garo, Garura, Gurda, Garoda",52652
+RAJASTHAN,28,Gavaria,85741
+RAJASTHAN,29,Godhi,438
+RAJASTHAN,30,Jingar,53540
+RAJASTHAN,31,"Kalbelia, Sapera",131911
+RAJASTHAN,32,"Kamad, Kamadia",11871
+RAJASTHAN,33,"Kanjar, Kunjar",53816
+RAJASTHAN,34,Kapadia Sansi,2600
+RAJASTHAN,35,Khangar,10263
+RAJASTHAN,36,Khatik,381447
+RAJASTHAN,37,"Koli, Kori",539920
+RAJASTHAN,38,"Kooch Band, Kuchband",2921
+RAJASTHAN,39,Koria,1770
+RAJASTHAN,40,"Madari, Bazigar",43860
+RAJASTHAN,41,"Mahar, Taral, Dhegumegu",1980
+RAJASTHAN,42,"Mahyavanshi, Dhed, Dheda, Vankar,  Maru Vankar",1289
+RAJASTHAN,43,Majhabi,158698
+RAJASTHAN,44,"Mang, Matang, Minimadig",2089
+RAJASTHAN,45,"Mang Garodi, Mang Garudi",55
+RAJASTHAN,46,"Megh, Meghval, Meghwal,  Menghvar",3060418
+RAJASTHAN,47,Mehar,79689
+RAJASTHAN,48,"Nat, Nut",65904
+RAJASTHAN,49,Pasi,4025
+RAJASTHAN,50,Rawal,28651
+RAJASTHAN,51,Salvi,85719
+RAJASTHAN,52,Sansi,86514
+RAJASTHAN,53,"Santia, Satia",12330
+RAJASTHAN,54,Sarbhangi,563
+RAJASTHAN,55,Sargara,138917
+RAJASTHAN,56,Singiwala,15879
+RAJASTHAN,57,"Thori, Nayak",839204
+RAJASTHAN,58,"Tirgar, Tirbanda",5273
+RAJASTHAN,59,Turi,4963
