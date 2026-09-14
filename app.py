@@ -691,11 +691,10 @@ if selected_state == "All India":
 
     with left_chart:
 
-        st.markdown(
-            '<div class="chart-card">',
-            unsafe_allow_html=True
-        )
-
+        # Header only: keep it as a normal Streamlit block.
+        # Do NOT leave an HTML <div> open around the Plotly component;
+        # Streamlit renders components independently and an open wrapper
+        # can interfere with the DOM/CSS of the KPI cards below/above it.
         st.markdown(
             """
             <div class="chart-header">
@@ -720,13 +719,10 @@ if selected_state == "All India":
         )
 
         fig.update_traces(
-            marker_color="#4F6FF5",
+            marker_color="#4F6BFF",
             textposition="outside",
-            hovertemplate=(
-                "<b>%{y}</b>"
-                "<br>SC Population: %{x:,}"
-                "<extra></extra>"
-            )
+            cliponaxis=False,
+            hovertemplate="<b>%{y}</b><br>SC Population: %{x:,}<extra></extra>"
         )
 
         fig.update_layout(
@@ -734,14 +730,12 @@ if selected_state == "All India":
             margin=dict(l=10, r=70, t=10, b=30),
             plot_bgcolor="white",
             paper_bgcolor="white",
-            font=dict(
-                family="Inter, Arial",
-                color="#17233F"
-            ),
+            font=dict(family="Inter, Arial", color="#17233F"),
             xaxis=dict(
                 title="SC Population",
                 tickformat=",",
-                gridcolor="#EEF1F7"
+                gridcolor="#EEF1F7",
+                zeroline=False
             ),
             yaxis=dict(
                 title="",
@@ -754,11 +748,6 @@ if selected_state == "All India":
             fig,
             use_container_width=True,
             config={"displayModeBar": False}
-        )
-
-        st.markdown(
-            '</div>',
-            unsafe_allow_html=True
         )
 
 
