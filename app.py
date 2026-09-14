@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -7,7 +5,7 @@ import plotly.graph_objects as go
 
 
 # ============================================================
-# PAGE CONFIG
+# PAGE CONFIGURATION
 # ============================================================
 
 st.set_page_config(
@@ -26,114 +24,181 @@ st.markdown(
     """
     <style>
 
-    /* Main background */
+    /* --------------------------------------------------------
+       GLOBAL
+    -------------------------------------------------------- */
+
     .stApp {
-        background-color: #F7F8FA;
+        background-color: #f6f8fb;
     }
 
-    /* Main content width */
-    .block-container {
+    .main .block-container {
+        max-width: 1500px;
         padding-top: 2rem;
         padding-bottom: 3rem;
-        max-width: 1500px;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 
-    /* Sidebar */
+    /* --------------------------------------------------------
+       SIDEBAR
+    -------------------------------------------------------- */
+
     section[data-testid="stSidebar"] {
-        background-color: #F1F3F6;
-        border-right: 1px solid #E1E4E8;
+        background-color: #17233F;
     }
 
-    section[data-testid="stSidebar"] .block-container {
-        padding-top: 2rem;
+    section[data-testid="stSidebar"] * {
+        color: white !important;
     }
 
-    /* Main title */
+    section[data-testid="stSidebar"] .stSelectbox label {
+        font-weight: 600;
+    }
+
+    /* --------------------------------------------------------
+       HEADERS
+    -------------------------------------------------------- */
+
     .dashboard-title {
         font-size: 42px;
-        font-weight: 700;
-        color: #1F2937;
-        margin-bottom: 4px;
-        letter-spacing: -1px;
-    }
-
-    .dashboard-subtitle {
-        font-size: 17px;
-        color: #6B7280;
-        margin-bottom: 25px;
-    }
-
-    /* State header */
-    .state-title {
-        font-size: 40px;
-        font-weight: 700;
-        color: #1F2937;
-        margin-bottom: 2px;
-    }
-
-    .state-subtitle {
-        font-size: 16px;
-        color: #6B7280;
-        margin-bottom: 20px;
-    }
-
-    /* KPI cards */
-    .metric-card {
-        background: white;
-        border: 1px solid #E2E5E9;
-        border-radius: 14px;
-        padding: 20px 22px;
-        min-height: 125px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.035);
-    }
-
-    .metric-label {
-        color: #6B7280;
-        font-size: 14px;
-        font-weight: 500;
+        font-weight: 750;
+        color: #17233F;
+        line-height: 1.15;
         margin-bottom: 8px;
     }
 
-    .metric-value {
-        color: #111827;
-        font-size: 28px;
-        font-weight: 700;
-        line-height: 1.2;
+    .dashboard-subtitle {
+        font-size: 18px;
+        color: #687386;
+        margin-bottom: 28px;
     }
 
-    .metric-description {
-        color: #9CA3AF;
-        font-size: 12px;
-        margin-top: 7px;
-    }
-
-    /* Chart cards */
     .section-title {
-        font-size: 21px;
-        font-weight: 650;
-        color: #1F2937;
-        margin-bottom: 3px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #17233F;
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 
     .section-subtitle {
+        font-size: 15px;
+        color: #7a8495;
+        margin-bottom: 18px;
+    }
+
+    /* --------------------------------------------------------
+       KPI CARDS
+    -------------------------------------------------------- */
+
+    .kpi-card {
+        background: white;
+        border: 1px solid #e2e6ed;
+        border-radius: 16px;
+        padding: 22px 24px;
+        min-height: 135px;
+        box-shadow: 0 4px 16px rgba(23, 35, 63, 0.05);
+    }
+
+    .kpi-label {
+        font-size: 14px;
+        color: #748095;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    .kpi-value {
+        font-size: 29px;
+        font-weight: 750;
+        color: #17233F;
+        line-height: 1.15;
+    }
+
+    .kpi-small {
         font-size: 13px;
-        color: #8A93A1;
+        color: #7a8495;
+        margin-top: 7px;
+    }
+
+    /* --------------------------------------------------------
+       STATE HERO
+    -------------------------------------------------------- */
+
+    .state-hero {
+        background: linear-gradient(
+            135deg,
+            #17233F 0%,
+            #24375f 100%
+        );
+        border-radius: 18px;
+        padding: 28px 32px;
+        margin-bottom: 24px;
+        box-shadow: 0 8px 25px rgba(23, 35, 63, 0.12);
+    }
+
+    .state-name {
+        color: white;
+        font-size: 38px;
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+
+    .state-description {
+        color: #d9dfeb;
+        font-size: 16px;
+    }
+
+    /* --------------------------------------------------------
+       CHART CONTAINERS
+    -------------------------------------------------------- */
+
+    .chart-header {
+        font-size: 21px;
+        font-weight: 700;
+        color: #17233F;
+        margin-bottom: 2px;
+    }
+
+    .chart-description {
+        font-size: 14px;
+        color: #7a8495;
         margin-bottom: 10px;
     }
 
-    /* Divider */
-    .soft-divider {
-        height: 1px;
-        background: #E5E7EB;
-        margin: 25px 0;
-    }
+    /* --------------------------------------------------------
+       FOOTER
+    -------------------------------------------------------- */
 
-    /* Footer */
     .footer {
         text-align: center;
-        color: #9CA3AF;
-        font-size: 12px;
-        padding-top: 30px;
+        color: #7a8495;
+        font-size: 13px;
+        padding-top: 20px;
+    }
+
+    /* --------------------------------------------------------
+       MOBILE
+    -------------------------------------------------------- */
+
+    @media (max-width: 900px) {
+
+        .main .block-container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .dashboard-title {
+            font-size: 30px;
+        }
+
+        .dashboard-subtitle {
+            font-size: 15px;
+        }
+
+        .state-name {
+            font-size: 30px;
+        }
     }
 
     </style>
@@ -149,19 +214,53 @@ st.markdown(
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv("data/sc_population.csv")
+    file_path = "data/sc_population.csv"
 
-    df.columns = df.columns.str.strip()
+    data = pd.read_csv(file_path)
 
-    for col in df.columns:
-        if df[col].dtype == "object":
-            df[col] = (
-                df[col]
+    # Clean column names
+    data.columns = (
+        data.columns
+        .astype(str)
+        .str.strip()
+    )
+
+    # Clean text columns
+    for column in data.columns:
+
+        if data[column].dtype == "object":
+
+            data[column] = (
+                data[column]
                 .astype(str)
                 .str.strip()
             )
 
-    return df
+    # Standardize State
+    data["State"] = (
+        data["State"]
+        .astype(str)
+        .str.strip()
+    )
+
+    # Standardize SC Name
+    data["SC Name"] = (
+        data["SC Name"]
+        .astype(str)
+        .str.strip()
+    )
+
+    # Standardize SC Code if available
+    if "SC Code" in data.columns:
+
+        data["SC Code"] = (
+            data["SC Code"]
+            .astype(str)
+            .str.replace(r"\.0$", "", regex=True)
+            .str.zfill(3)
+        )
+
+    return data
 
 
 df = load_data()
@@ -172,32 +271,36 @@ df = load_data()
 # ============================================================
 
 possible_population_columns = [
+    "Total Population",
     "Population",
     "SC Population",
     "SC_Population",
     "Scheduled Caste Population",
     "Scheduled_Caste_Population",
-    "Total Population",
     "Total_Population"
 ]
 
 population_column = None
 
-for col in possible_population_columns:
+for column in possible_population_columns:
 
-    if col in df.columns:
-        population_column = col
+    if column in df.columns:
+
+        population_column = column
         break
 
 
 if population_column is None:
 
     st.error(
-        "Population column was not found in data/sc_population.csv."
+        "Population column was not found in "
+        "data/sc_population.csv."
     )
 
     st.stop()
 
+
+# Convert population to numeric
 
 df[population_column] = pd.to_numeric(
     df[population_column],
@@ -215,18 +318,85 @@ required_columns = [
 ]
 
 missing_columns = [
-    col
-    for col in required_columns
-    if col not in df.columns
+    column
+    for column in required_columns
+    if column not in df.columns
 ]
 
 if missing_columns:
 
     st.error(
-        f"Missing required columns: {', '.join(missing_columns)}"
+        "Missing required column(s): "
+        + ", ".join(missing_columns)
     )
 
     st.stop()
+
+
+# ============================================================
+# INDIAN NUMBER FORMAT
+# ============================================================
+
+def indian_number(value):
+
+    try:
+        number = int(round(float(value)))
+    except Exception:
+        return "0"
+
+    sign = "-" if number < 0 else ""
+
+    number_string = str(abs(number))
+
+    if len(number_string) <= 3:
+        return sign + number_string
+
+    last_three = number_string[-3:]
+    remaining = number_string[:-3]
+
+    parts = []
+
+    while len(remaining) > 2:
+
+        parts.insert(
+            0,
+            remaining[-2:]
+        )
+
+        remaining = remaining[:-2]
+
+    if remaining:
+        parts.insert(
+            0,
+            remaining
+        )
+
+    return (
+        sign
+        + ",".join(parts)
+        + ","
+        + last_three
+    )
+
+
+# ============================================================
+# BASIC DATA SUMMARY
+# ============================================================
+
+states = sorted(
+    df["State"]
+    .dropna()
+    .unique()
+    .tolist()
+)
+
+loaded_states = len(states)
+
+total_categories = df["SC Name"].nunique()
+
+total_population = int(
+    df[population_column].sum()
+)
 
 
 # ============================================================
@@ -236,58 +406,59 @@ if missing_columns:
 st.sidebar.markdown(
     """
     <div style="
-        font-size:24px;
-        font-weight:700;
-        color:#1F2937;
-        margin-bottom:20px;
+        font-size:26px;
+        font-weight:800;
+        margin-bottom:5px;
     ">
-        Dashboard Filters
+        SC Dashboard
+    </div>
+
+    <div style="
+        font-size:13px;
+        color:#CBD3E2 !important;
+        margin-bottom:25px;
+    ">
+        Census 2011 Population Explorer
     </div>
     """,
     unsafe_allow_html=True
 )
 
 
-states = [
-    "All India"
-] + sorted(
-    df["State"]
-    .dropna()
-    .unique()
-    .tolist()
+st.sidebar.markdown(
+    "### Select State"
 )
 
 
+state_options = [
+    "All India"
+] + states
+
+
 selected_state = st.sidebar.selectbox(
-    "Select State / UT",
-    states
+    "State / UT",
+    state_options,
+    index=0
 )
 
 
 # ============================================================
-# STATE FILTER
+# DYNAMIC SC CATEGORY FILTER
 # ============================================================
 
 if selected_state == "All India":
 
-    filtered_df = df.copy()
-    india_view = True
+    state_filtered_df = df.copy()
 
 else:
 
-    filtered_df = df[
+    state_filtered_df = df[
         df["State"] == selected_state
     ].copy()
 
-    india_view = False
 
-
-# ============================================================
-# SC CATEGORY DROPDOWN
-# ============================================================
-
-available_categories = sorted(
-    filtered_df["SC Name"]
+available_sc_categories = sorted(
+    state_filtered_df["SC Name"]
     .dropna()
     .unique()
     .tolist()
@@ -296,11 +467,11 @@ available_categories = sorted(
 
 sc_options = [
     "All Scheduled Castes"
-] + available_categories
+] + available_sc_categories
 
 
 selected_sc = st.sidebar.selectbox(
-    "Select Scheduled Caste",
+    "Scheduled Caste Category",
     sc_options
 )
 
@@ -309,131 +480,22 @@ selected_sc = st.sidebar.selectbox(
 # APPLY SC FILTER
 # ============================================================
 
-if selected_sc != "All Scheduled Castes":
+if selected_sc == "All Scheduled Castes":
 
-    selected_df = filtered_df[
-        filtered_df["SC Name"] == selected_sc
-    ].copy()
+    selected_df = state_filtered_df.copy()
 
 else:
 
-    selected_df = filtered_df.copy()
+    selected_df = state_filtered_df[
+        state_filtered_df["SC Name"] == selected_sc
+    ].copy()
 
 
 # ============================================================
-# HELPER FUNCTIONS
+# INDIA OVERVIEW
 # ============================================================
 
-def indian_number(value):
-
-    value = int(round(value))
-
-    s = str(abs(value))
-
-    if len(s) <= 3:
-        result = s
-
-    else:
-
-        last_three = s[-3:]
-
-        remaining = s[:-3]
-
-        parts = []
-
-        while len(remaining) > 2:
-
-            parts.insert(
-                0,
-                remaining[-2:]
-            )
-
-            remaining = remaining[:-2]
-
-        if remaining:
-            parts.insert(
-                0,
-                remaining
-            )
-
-        result = ",".join(parts) + "," + last_three
-
-    if value < 0:
-        result = "-" + result
-
-    return result
-
-
-def metric_card(
-    label,
-    value,
-    description=""
-):
-
-    st.markdown(
-        f"""
-        <div class="metric-card">
-
-            <div class="metric-label">
-                {label}
-            </div>
-
-            <div class="metric-value">
-                {value}
-            </div>
-
-            <div class="metric-description">
-                {description}
-            </div>
-
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-
-def chart_layout(fig):
-
-    fig.update_layout(
-
-        margin=dict(
-            l=10,
-            r=10,
-            t=15,
-            b=10
-        ),
-
-        font=dict(
-            family="Arial",
-            color="#374151"
-        ),
-
-        paper_bgcolor="rgba(0,0,0,0)",
-
-        plot_bgcolor="white",
-
-        hoverlabel=dict(
-            bgcolor="white",
-            font_size=13
-        ),
-
-        legend=dict(
-            orientation="h",
-            yanchor="bottom",
-            y=-0.25,
-            xanchor="center",
-            x=0.5
-        )
-    )
-
-    return fig
-
-
-# ============================================================
-# ALL INDIA PAGE
-# ============================================================
-
-if india_view:
+if selected_state == "All India":
 
     # --------------------------------------------------------
     # HEADER
@@ -454,82 +516,129 @@ if india_view:
 
 
     # --------------------------------------------------------
-    # INDIA METRICS
+    # INDIA KPI VALUES
     # --------------------------------------------------------
 
-    total_states = df["State"].nunique()
+    largest_row = df.loc[
+        df[population_column].idxmax()
+    ]
 
-    total_categories = df["SC Name"].nunique()
-
-    total_population = df[population_column].sum()
-
-
-    category_totals = (
-        df.groupby("SC Name")[population_column]
-        .sum()
-        .sort_values(
-            ascending=False
-        )
+    largest_category = largest_row["SC Name"]
+    largest_state = largest_row["State"]
+    largest_population = int(
+        largest_row[population_column]
     )
 
 
-    largest_category = (
-        category_totals.index[0]
-        if len(category_totals) > 0
-        else "N/A"
-    )
+    # --------------------------------------------------------
+    # KPI CARDS
+    # --------------------------------------------------------
+
+    k1, k2, k3, k4 = st.columns(4)
 
 
-    largest_category_population = (
-        category_totals.iloc[0]
-        if len(category_totals) > 0
-        else 0
-    )
+    with k1:
 
+        st.markdown(
+            f"""
+            <div class="kpi-card">
 
-    c1, c2, c3, c4 = st.columns(4)
+                <div class="kpi-label">
+                    STATES / UTs LOADED
+                </div>
 
+                <div class="kpi-value">
+                    {loaded_states}
+                </div>
 
-    with c1:
+                <div class="kpi-small">
+                    States and Union Territories
+                </div>
 
-        metric_card(
-            "States / UTs Loaded",
-            f"{total_states} / 36",
-            "States and UTs currently available"
+            </div>
+            """,
+            unsafe_allow_html=True
         )
 
 
-    with c2:
+    with k2:
 
-        metric_card(
-            "Total SC Population",
-            indian_number(total_population),
-            "Across all loaded states / UTs"
+        st.markdown(
+            f"""
+            <div class="kpi-card">
+
+                <div class="kpi-label">
+                    TOTAL SC POPULATION
+                </div>
+
+                <div class="kpi-value">
+                    {indian_number(total_population)}
+                </div>
+
+                <div class="kpi-small">
+                    Across all loaded states / UTs
+                </div>
+
+            </div>
+            """,
+            unsafe_allow_html=True
         )
 
 
-    with c3:
+    with k3:
 
-        metric_card(
-            "SC Categories",
-            indian_number(total_categories),
-            "Unique SC groups in loaded data"
+        st.markdown(
+            f"""
+            <div class="kpi-card">
+
+                <div class="kpi-label">
+                    SC CATEGORIES
+                </div>
+
+                <div class="kpi-value">
+                    {indian_number(total_categories)}
+                </div>
+
+                <div class="kpi-small">
+                    Unique Scheduled Caste groups
+                </div>
+
+            </div>
+            """,
+            unsafe_allow_html=True
         )
 
 
-    with c4:
+    with k4:
 
-        metric_card(
-            "Largest SC Category",
-            largest_category,
-            indian_number(largest_category_population)
+        st.markdown(
+            f"""
+            <div class="kpi-card">
+
+                <div class="kpi-label">
+                    LARGEST SC CATEGORY
+                </div>
+
+                <div class="kpi-value"
+                     style="font-size:20px;">
+
+                    {largest_category}
+
+                </div>
+
+                <div class="kpi-small">
+                    {largest_state}
+                    ·
+                    {indian_number(largest_population)}
+                </div>
+
+            </div>
+            """,
+            unsafe_allow_html=True
         )
 
 
-    st.markdown(
-        '<div class="soft-divider"></div>',
-        unsafe_allow_html=True
-    )
+    st.markdown("<br>", unsafe_allow_html=True)
 
 
     # ========================================================
@@ -537,36 +646,59 @@ if india_view:
     # ========================================================
 
     state_summary = (
-        df.groupby("State", as_index=False)[
-            population_column
-        ]
+        df
+        .groupby(
+            "State",
+            as_index=False
+        )[population_column]
         .sum()
+        .rename(
+            columns={
+                population_column:
+                    "SC Population"
+            }
+        )
         .sort_values(
-            population_column,
+            "SC Population",
             ascending=False
+        )
+        .reset_index(drop=True)
+    )
+
+
+    state_summary.insert(
+        0,
+        "Rank",
+        range(
+            1,
+            len(state_summary) + 1
         )
     )
 
 
-    # --------------------------------------------------------
-    # STATE RANKING + DONUT
-    # --------------------------------------------------------
+    # ========================================================
+    # INDIA CHARTS
+    # ========================================================
 
-    col_left, col_right = st.columns(
+    left_chart, right_chart = st.columns(
         [1.55, 1]
     )
 
 
-    with col_left:
+    # --------------------------------------------------------
+    # STATE BAR CHART
+    # --------------------------------------------------------
+
+    with left_chart:
 
         st.markdown(
             """
-            <div class="section-title">
+            <div class="chart-header">
                 SC Population by State / UT
             </div>
 
-            <div class="section-subtitle">
-                Ranked from highest to lowest
+            <div class="chart-description">
+                Ranked from highest to lowest population
             </div>
             """,
             unsafe_allow_html=True
@@ -575,276 +707,177 @@ if india_view:
 
         chart_df = state_summary.copy()
 
-        chart_df["Display"] = chart_df[
-            population_column
-        ].apply(indian_number)
+        chart_df["Display Population"] = (
+            chart_df["SC Population"]
+            .apply(indian_number)
+        )
 
 
-        fig_state = px.bar(
-
+        fig = px.bar(
             chart_df,
-
-            x=population_column,
-
+            x="SC Population",
             y="State",
-
             orientation="h",
-
-            text=population_column,
-
-            color=population_column,
-
-            color_continuous_scale=[
-                "#D97706",
-                "#E59B42",
-                "#1F7A6E"
-            ],
-
-            labels={
-                population_column:
-                "SC Population",
-
-                "State":
-                ""
-            }
-
+            text="Display Population"
         )
 
 
-        fig_state.update_traces(
-            texttemplate="%{x:,.0f}",
+        fig.update_traces(
+            marker_color="#E39A45",
             textposition="outside",
-            cliponaxis=False
-        )
-
-
-        fig_state.update_layout(
-            height=570,
-            coloraxis_showscale=False,
-            yaxis=dict(
-                categoryorder="total ascending"
-            ),
-            xaxis=dict(
-                showgrid=True,
-                gridcolor="#E5E7EB"
+            hovertemplate=(
+                "<b>%{y}</b>"
+                "<br>SC Population: %{x:,}"
+                "<extra></extra>"
             )
         )
 
 
-        fig_state = chart_layout(
-            fig_state
+        fig.update_layout(
+
+            height=480,
+
+            margin=dict(
+                l=10,
+                r=70,
+                t=10,
+                b=30
+            ),
+
+            plot_bgcolor="white",
+            paper_bgcolor="white",
+
+            font=dict(
+                family="Arial",
+                color="#17233F"
+            ),
+
+            xaxis=dict(
+                title="SC Population",
+                tickformat=",",
+                gridcolor="#E7EAF0"
+            ),
+
+            yaxis=dict(
+                title="",
+                autorange="reversed"
+            ),
+
+            showlegend=False
         )
 
 
         st.plotly_chart(
-            fig_state,
-            use_container_width=True
+            fig,
+            use_container_width=True,
+            config={
+                "displayModeBar": False
+            }
         )
 
 
-    with col_right:
+    # --------------------------------------------------------
+    # TOP 5 DONUT
+    # --------------------------------------------------------
+
+    with right_chart:
 
         st.markdown(
             """
-            <div class="section-title">
+            <div class="chart-header">
                 Top 5 States vs Remaining
             </div>
 
-            <div class="section-subtitle">
-                Share of total loaded SC population
+            <div class="chart-description">
+                Share of loaded SC population
             </div>
             """,
             unsafe_allow_html=True
         )
 
 
-        top5 = state_summary.head(5)
+        top5 = state_summary.head(5).copy()
 
-        top5_total = top5[
-            population_column
-        ].sum()
-
-        remaining_total = (
-            state_summary[
-                population_column
+        remaining_population = int(
+            state_summary.iloc[5:][
+                "SC Population"
             ].sum()
-            - top5_total
         )
 
 
-        donut_df = pd.DataFrame(
-            {
-                "Group":
-                list(
-                    top5["State"]
-                ) + ["Remaining States"],
+        donut_labels = top5[
+            "State"
+        ].tolist()
 
-                "Population":
-                list(
-                    top5[
-                        population_column
-                    ]
-                ) + [
-                    remaining_total
-                ]
-            }
-        )
+        donut_values = top5[
+            "SC Population"
+        ].tolist()
 
 
-        fig_donut = px.pie(
+        if remaining_population > 0:
 
-            donut_df,
+            donut_labels.append(
+                "Remaining States / UTs"
+            )
 
-            names="Group",
+            donut_values.append(
+                remaining_population
+            )
 
-            values="Population",
 
-            hole=0.60,
-
-            color_discrete_sequence=[
-                "#E59B42",
-                "#287C70",
-                "#89A4BF",
-                "#B95C50",
-                "#7462A3",
-                "#D8D4C8"
+        donut = go.Figure(
+            data=[
+                go.Pie(
+                    labels=donut_labels,
+                    values=donut_values,
+                    hole=0.62,
+                    textinfo="percent",
+                    hovertemplate=(
+                        "<b>%{label}</b>"
+                        "<br>Population: %{value:,}"
+                        "<br>Share: %{percent}"
+                        "<extra></extra>"
+                    )
+                )
             ]
         )
 
 
-        fig_donut.update_traces(
-            textposition="inside",
-            textinfo="percent",
-            hovertemplate=(
-                "<b>%{label}</b><br>"
-                "Population: %{value:,.0f}<br>"
-                "Share: %{percent}"
-                "<extra></extra>"
+        donut.update_layout(
+
+            height=480,
+
+            margin=dict(
+                l=10,
+                r=10,
+                t=10,
+                b=70
+            ),
+
+            paper_bgcolor="white",
+
+            font=dict(
+                family="Arial",
+                color="#17233F"
+            ),
+
+            legend=dict(
+                orientation="h",
+                yanchor="bottom",
+                y=-0.20,
+                xanchor="center",
+                x=0.5
             )
         )
 
 
-        fig_donut.update_layout(
-            height=570
-        )
-
-
-        fig_donut = chart_layout(
-            fig_donut
-        )
-
-
         st.plotly_chart(
-            fig_donut,
-            use_container_width=True
+            donut,
+            use_container_width=True,
+            config={
+                "displayModeBar": False
+            }
         )
-
-
-    # ========================================================
-    # TOP SC GROUPS
-    # ========================================================
-
-    st.markdown(
-        '<div class="soft-divider"></div>',
-        unsafe_allow_html=True
-    )
-
-
-    st.markdown(
-        """
-        <div class="section-title">
-            Top 10 Scheduled Caste Groups Nationwide
-        </div>
-
-        <div class="section-subtitle">
-            Largest individual SC entries across all loaded states / UTs
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-
-    top_categories = (
-        df.groupby(
-            ["State", "SC Name"],
-            as_index=False
-        )[population_column]
-        .sum()
-        .sort_values(
-            population_column,
-            ascending=False
-        )
-        .head(10)
-    )
-
-
-    top_categories["Label"] = (
-        top_categories["SC Name"]
-        .str.slice(0, 45)
-    )
-
-
-    fig_categories = px.bar(
-
-        top_categories,
-
-        x=population_column,
-
-        y="Label",
-
-        orientation="h",
-
-        color="State",
-
-        text=population_column,
-
-        labels={
-            population_column:
-            "Population",
-
-            "Label":
-            ""
-        },
-
-        color_discrete_sequence=[
-            "#287C70",
-            "#D97706",
-            "#7462A3",
-            "#B95C50",
-            "#89A4BF",
-            "#A67C52"
-        ]
-    )
-
-
-    fig_categories.update_traces(
-        texttemplate="%{x:,.0f}",
-        textposition="outside",
-        cliponaxis=False
-    )
-
-
-    fig_categories.update_layout(
-        height=500,
-        yaxis=dict(
-            categoryorder="total ascending"
-        ),
-        xaxis=dict(
-            showgrid=True,
-            gridcolor="#E5E7EB"
-        )
-    )
-
-
-    fig_categories = chart_layout(
-        fig_categories
-    )
-
-
-    st.plotly_chart(
-        fig_categories,
-        use_container_width=True
-    )
 
 
     # ========================================================
@@ -852,45 +885,36 @@ if india_view:
     # ========================================================
 
     st.markdown(
-        '<div class="soft-divider"></div>',
-        unsafe_allow_html=True
-    )
-
-
-    st.markdown(
         """
         <div class="section-title">
-            State / UT Population Details
+            State / UT Population Summary
         </div>
 
         <div class="section-subtitle">
-            Complete state-wise summary
+            Total Scheduled Caste population by loaded State / UT
         </div>
         """,
         unsafe_allow_html=True
     )
 
 
-    display_state = state_summary.rename(
-        columns={
-            "State": "State / UT",
-            population_column: "SC Population"
-        }
+    display_state_summary = state_summary.copy()
+
+    display_state_summary[
+        "SC Population"
+    ] = (
+        display_state_summary[
+            "SC Population"
+        ]
+        .apply(indian_number)
     )
 
 
-    display_state[
-        "SC Population"
-    ] = display_state[
-        "SC Population"
-    ].apply(indian_number)
-
-
     st.dataframe(
-        display_state,
+        display_state_summary,
         use_container_width=True,
         hide_index=True,
-        height=450
+        height=500
     )
 
 
@@ -901,517 +925,595 @@ if india_view:
 else:
 
     # --------------------------------------------------------
-    # STATE HEADER
+    # STATE DATA
     # --------------------------------------------------------
 
-    state_code = ""
-
-    if "State Code" in filtered_df.columns:
-
-        codes = (
-            filtered_df["State Code"]
-            .dropna()
-            .astype(str)
-            .unique()
-            .tolist()
-        )
-
-        if codes:
-            state_code = codes[0]
-
-
-    st.markdown(
-        f"""
-        <div class="state-title">
-            {selected_state}
-        </div>
-
-        <div class="state-subtitle">
-            Census 2011 · Scheduled Caste Population Statistics
-            {" · Code " + state_code if state_code else ""}
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-
-    # --------------------------------------------------------
-    # STATE METRICS
-    # --------------------------------------------------------
-
-    state_population = filtered_df[
-        population_column
-    ].sum()
-
-
-    state_categories = filtered_df[
-        "SC Name"
-    ].nunique()
-
-
-    state_category_totals = (
-        filtered_df.groupby(
-            "SC Name"
-        )[population_column]
-        .sum()
+    state_data = (
+        df[
+            df["State"] == selected_state
+        ]
+        .copy()
         .sort_values(
+            population_column,
             ascending=False
         )
     )
 
 
+    state_total_population = int(
+        state_data[population_column].sum()
+    )
+
+
+    state_category_count = (
+        state_data["SC Name"]
+        .nunique()
+    )
+
+
+    largest_state_row = state_data.loc[
+        state_data[population_column].idxmax()
+    ]
+
+
     largest_state_category = (
-        state_category_totals.index[0]
-        if len(state_category_totals)
-        else "N/A"
+        largest_state_row["SC Name"]
     )
 
 
-    largest_state_category_population = (
-        state_category_totals.iloc[0]
-        if len(state_category_totals)
-        else 0
+    largest_state_category_population = int(
+        largest_state_row[population_column]
     )
 
 
-    selected_population = selected_df[
-        population_column
-    ].sum()
+    selected_population = int(
+        selected_df[population_column].sum()
+    )
 
 
-    c1, c2, c3, c4 = st.columns(4)
+    # --------------------------------------------------------
+    # STATE HEADER
+    # --------------------------------------------------------
+
+    st.markdown(
+        f"""
+        <div class="state-hero">
+
+            <div class="state-name">
+                {selected_state}
+            </div>
+
+            <div class="state-description">
+                Census 2011 · Scheduled Caste Population Statistics
+            </div>
+
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 
-    with c1:
+    # --------------------------------------------------------
+    # STATE KPI CARDS
+    # --------------------------------------------------------
 
-        metric_card(
-            "Total SC Population",
-            indian_number(state_population),
-            selected_state
+    k1, k2, k3, k4 = st.columns(4)
+
+
+    with k1:
+
+        st.markdown(
+            f"""
+            <div class="kpi-card">
+
+                <div class="kpi-label">
+                    TOTAL SC POPULATION
+                </div>
+
+                <div class="kpi-value">
+                    {indian_number(state_total_population)}
+                </div>
+
+                <div class="kpi-small">
+                    {selected_state}
+                </div>
+
+            </div>
+            """,
+            unsafe_allow_html=True
         )
 
 
-    with c2:
+    with k2:
 
-        metric_card(
-            "SC Groups",
-            indian_number(state_categories),
-            "Scheduled Caste groups"
+        st.markdown(
+            f"""
+            <div class="kpi-card">
+
+                <div class="kpi-label">
+                    SC CATEGORIES
+                </div>
+
+                <div class="kpi-value">
+                    {state_category_count}
+                </div>
+
+                <div class="kpi-small">
+                    Scheduled Caste groups
+                </div>
+
+            </div>
+            """,
+            unsafe_allow_html=True
         )
 
 
-    with c3:
+    with k3:
 
-        metric_card(
-            "Largest SC Group",
-            largest_state_category,
-            indian_number(
-                largest_state_category_population
-            )
+        st.markdown(
+            f"""
+            <div class="kpi-card">
+
+                <div class="kpi-label">
+                    LARGEST SC CATEGORY
+                </div>
+
+                <div class="kpi-value"
+                     style="font-size:20px;">
+
+                    {largest_state_category}
+
+                </div>
+
+                <div class="kpi-small">
+                    {indian_number(
+                        largest_state_category_population
+                    )}
+                </div>
+
+            </div>
+            """,
+            unsafe_allow_html=True
         )
 
 
-    with c4:
+    with k4:
 
         if selected_sc == "All Scheduled Castes":
 
-            metric_card(
-                "Selected Population",
-                indian_number(
-                    state_population
-                ),
-                "All Scheduled Castes"
-            )
+            metric_label = "SELECTED POPULATION"
+            metric_value = state_total_population
+            metric_description = "All Scheduled Castes"
 
         else:
 
-            metric_card(
-                "Selected Population",
-                indian_number(
-                    selected_population
-                ),
-                selected_sc
-            )
+            metric_label = "SELECTED POPULATION"
+            metric_value = selected_population
+            metric_description = selected_sc
 
-
-    st.markdown(
-        '<div class="soft-divider"></div>',
-        unsafe_allow_html=True
-    )
-
-
-    # ========================================================
-    # STATE CHARTS
-    # ========================================================
-
-    col_left, col_right = st.columns(
-        [1.55, 1]
-    )
-
-
-    # --------------------------------------------------------
-    # TOP 10 BAR
-    # --------------------------------------------------------
-
-    with col_left:
 
         st.markdown(
-            """
-            <div class="section-title">
-                Top 10 SC Groups by Population
-            </div>
+            f"""
+            <div class="kpi-card">
 
-            <div class="section-subtitle">
-                Largest Scheduled Caste groups in this state
+                <div class="kpi-label">
+                    {metric_label}
+                </div>
+
+                <div class="kpi-value">
+                    {indian_number(metric_value)}
+                </div>
+
+                <div class="kpi-small">
+                    {metric_description}
+                </div>
+
             </div>
             """,
             unsafe_allow_html=True
         )
 
 
-        top10 = (
-            state_category_totals
-            .head(10)
-            .reset_index()
-        )
+    st.markdown("<br>", unsafe_allow_html=True)
 
 
-        top10.columns = [
-            "SC Name",
-            "Population"
-        ]
+    # ========================================================
+    # IF CATEGORY SELECTED
+    # ========================================================
 
-
-        top10["Short Name"] = (
-            top10["SC Name"]
-            .str.slice(0, 42)
-        )
-
-
-        fig_top10 = px.bar(
-
-            top10,
-
-            x="Population",
-
-            y="Short Name",
-
-            orientation="h",
-
-            text="Population",
-
-            color="Population",
-
-            color_continuous_scale=[
-                "#1F7A6E",
-                "#5C9D93",
-                "#D6A04A"
-            ],
-
-            labels={
-                "Population":
-                "Population",
-
-                "Short Name":
-                ""
-            }
-        )
-
-
-        fig_top10.update_traces(
-            texttemplate="%{x:,.0f}",
-            textposition="outside",
-            cliponaxis=False
-        )
-
-
-        fig_top10.update_layout(
-            height=520,
-            coloraxis_showscale=False,
-            yaxis=dict(
-                categoryorder="total ascending"
-            )
-        )
-
-
-        fig_top10 = chart_layout(
-            fig_top10
-        )
-
-
-        st.plotly_chart(
-            fig_top10,
-            use_container_width=True
-        )
-
-
-    # --------------------------------------------------------
-    # DONUT
-    # --------------------------------------------------------
-
-    with col_right:
+    if selected_sc != "All Scheduled Castes":
 
         st.markdown(
-            """
+            f"""
             <div class="section-title">
-                Top 5 vs Remaining Groups
+                {selected_sc}
             </div>
 
             <div class="section-subtitle">
-                Share of state-level SC population
+                Detailed population records for
+                {selected_state}
             </div>
             """,
             unsafe_allow_html=True
         )
 
 
-        top5_state = (
-            state_category_totals
-            .head(5)
-        )
+        caste_data = selected_df.copy()
 
 
-        top5_state_total = (
-            top5_state.sum()
-        )
-
-
-        remaining_state_total = (
-            state_population
-            - top5_state_total
-        )
-
-
-        state_donut = pd.DataFrame(
-            {
-                "Group":
-                list(
-                    top5_state.index
-                ) + ["Remaining Groups"],
-
-                "Population":
-                list(
-                    top5_state.values
-                ) + [
-                    remaining_state_total
-                ]
-            }
-        )
-
-
-        fig_state_donut = px.pie(
-
-            state_donut,
-
-            names="Group",
-
-            values="Population",
-
-            hole=0.60,
-
-            color_discrete_sequence=[
-                "#D99A45",
-                "#287C70",
-                "#89A4BF",
-                "#B95C50",
-                "#7462A3",
-                "#D8D4C8"
-            ]
-        )
-
-
-        fig_state_donut.update_traces(
-            textposition="inside",
-            textinfo="percent",
-            hovertemplate=(
-                "<b>%{label}</b><br>"
-                "Population: %{value:,.0f}<br>"
-                "Share: %{percent}"
-                "<extra></extra>"
-            )
-        )
-
-
-        fig_state_donut.update_layout(
-            height=520
-        )
-
-
-        fig_state_donut = chart_layout(
-            fig_state_donut
-        )
-
-
-        st.plotly_chart(
-            fig_state_donut,
-            use_container_width=True
-        )
-
-
-    # ========================================================
-    # POPULATION DISTRIBUTION
-    # ========================================================
-
-    st.markdown(
-        '<div class="soft-divider"></div>',
-        unsafe_allow_html=True
-    )
-
-
-    st.markdown(
-        """
-        <div class="section-title">
-            SC Population Distribution
-        </div>
-
-        <div class="section-subtitle">
-            Population of individual Scheduled Caste groups
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-
-    distribution_df = state_category_totals.reset_index()
-
-    distribution_df.columns = [
-        "SC Name",
-        "Population"
-    ]
-
-
-    fig_distribution = px.scatter(
-
-        distribution_df,
-
-        x="SC Name",
-
-        y="Population",
-
-        size="Population",
-
-        color="Population",
-
-        hover_name="SC Name",
-
-        color_continuous_scale=[
-            "#7462A3",
-            "#287C70",
-            "#D99A45"
-        ],
-
-        labels={
-            "SC Name":
-            "",
-
-            "Population":
-            "Population"
-        }
-    )
-
-
-    fig_distribution.update_layout(
-        height=420,
-        coloraxis_showscale=False,
-        xaxis=dict(
-            showticklabels=False
-        ),
-        yaxis=dict(
-            showgrid=True,
-            gridcolor="#E5E7EB"
-        )
-    )
-
-
-    fig_distribution = chart_layout(
-        fig_distribution
-    )
-
-
-    st.plotly_chart(
-        fig_distribution,
-        use_container_width=True
-    )
-
-
-    # ========================================================
-    # FULL DATA
-    # ========================================================
-
-    st.markdown(
-        '<div class="soft-divider"></div>',
-        unsafe_allow_html=True
-    )
-
-
-    st.markdown(
-        """
-        <div class="section-title">
-            Complete SC Data
-        </div>
-
-        <div class="section-subtitle">
-            All Scheduled Caste groups available for this state
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-
-    state_table = filtered_df.copy()
-
-
-    preferred_columns = []
-
-    if "SC Code" in state_table.columns:
-        preferred_columns.append("SC Code")
-
-    preferred_columns.extend(
-        [
+        preferred_columns = [
+            "SC Code",
             "SC Name",
             population_column
         ]
-    )
 
 
-    other_columns = [
-        col
-        for col in state_table.columns
-        if col not in preferred_columns
-    ]
+        existing_preferred_columns = [
+            column
+            for column in preferred_columns
+            if column in caste_data.columns
+        ]
 
 
-    state_table = state_table[
-        preferred_columns + other_columns
-    ]
+        remaining_columns = [
+            column
+            for column in caste_data.columns
+            if column not in existing_preferred_columns
+        ]
 
 
-    rename_map = {
-        "SC Code": "SC Code",
-        "SC Name": "Scheduled Caste",
-        population_column: "Population"
-    }
+        caste_data = caste_data[
+            existing_preferred_columns
+            + remaining_columns
+        ]
 
 
-    state_table = state_table.rename(
-        columns=rename_map
-    )
+        rename_map = {
+
+            "SC Code":
+                "SC Code",
+
+            "SC Name":
+                "Scheduled Caste",
+
+            population_column:
+                "Population"
+        }
 
 
-    if "Population" in state_table.columns:
+        caste_data = caste_data.rename(
+            columns=rename_map
+        )
 
-        state_table["Population"] = (
-            state_table["Population"]
+
+        if "Population" in caste_data.columns:
+
+            caste_data["Population"] = (
+                caste_data["Population"]
+                .apply(indian_number)
+            )
+
+
+        st.dataframe(
+            caste_data,
+            use_container_width=True,
+            hide_index=True,
+            height=500
+        )
+
+
+    # ========================================================
+    # ALL SC CATEGORIES STATE VIEW
+    # ========================================================
+
+    else:
+
+        # ----------------------------------------------------
+        # CATEGORY SUMMARY
+        # ----------------------------------------------------
+
+        category_summary = (
+            state_data
+            .groupby(
+                "SC Name",
+                as_index=False
+            )[population_column]
+            .sum()
+            .rename(
+                columns={
+                    population_column:
+                        "Population"
+                }
+            )
+            .sort_values(
+                "Population",
+                ascending=False
+            )
+            .reset_index(drop=True)
+        )
+
+
+        category_summary.insert(
+            0,
+            "Rank",
+            range(
+                1,
+                len(category_summary) + 1
+            )
+        )
+
+
+        # ----------------------------------------------------
+        # TOP 10 + DONUT
+        # ----------------------------------------------------
+
+        left_chart, right_chart = st.columns(
+            [1.25, 1]
+        )
+
+
+        # ----------------------------------------------------
+        # TOP 10 BAR
+        # ----------------------------------------------------
+
+        with left_chart:
+
+            st.markdown(
+                """
+                <div class="chart-header">
+                    Top 10 SC Groups by Population
+                </div>
+
+                <div class="chart-description">
+                    Largest Scheduled Caste groups in this state
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+
+            top10 = (
+                category_summary
+                .head(10)
+                .sort_values(
+                    "Population",
+                    ascending=True
+                )
+                .copy()
+            )
+
+
+            top10["Display Population"] = (
+                top10["Population"]
+                .apply(indian_number)
+            )
+
+
+            fig = px.bar(
+                top10,
+                x="Population",
+                y="SC Name",
+                orientation="h",
+                text="Display Population"
+            )
+
+
+            fig.update_traces(
+
+                marker_color="#2F8F83",
+
+                textposition="outside",
+
+                hovertemplate=(
+                    "<b>%{y}</b>"
+                    "<br>Population: %{x:,}"
+                    "<extra></extra>"
+                )
+            )
+
+
+            fig.update_layout(
+
+                height=430,
+
+                margin=dict(
+                    l=10,
+                    r=70,
+                    t=10,
+                    b=35
+                ),
+
+                plot_bgcolor="white",
+                paper_bgcolor="white",
+
+                font=dict(
+                    family="Arial",
+                    color="#17233F"
+                ),
+
+                xaxis=dict(
+                    title="Population",
+                    tickformat=",",
+                    gridcolor="#E7EAF0"
+                ),
+
+                yaxis=dict(
+                    title=""
+                ),
+
+                showlegend=False
+            )
+
+
+            st.plotly_chart(
+                fig,
+                use_container_width=True,
+                config={
+                    "displayModeBar": False
+                }
+            )
+
+
+        # ----------------------------------------------------
+        # TOP 5 VS REMAINING DONUT
+        # ----------------------------------------------------
+
+        with right_chart:
+
+            st.markdown(
+                """
+                <div class="chart-header">
+                    Top 5 vs Remaining Groups
+                </div>
+
+                <div class="chart-description">
+                    Share of state-level SC population
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+
+            top5_groups = (
+                category_summary
+                .head(5)
+                .copy()
+            )
+
+
+            remaining_groups_population = int(
+                category_summary.iloc[5:][
+                    "Population"
+                ].sum()
+            )
+
+
+            group_labels = (
+                top5_groups["SC Name"]
+                .tolist()
+            )
+
+
+            group_values = (
+                top5_groups["Population"]
+                .tolist()
+            )
+
+
+            if remaining_groups_population > 0:
+
+                group_labels.append(
+                    "Remaining Groups"
+                )
+
+                group_values.append(
+                    remaining_groups_population
+                )
+
+
+            group_donut = go.Figure(
+                data=[
+                    go.Pie(
+                        labels=group_labels,
+                        values=group_values,
+                        hole=0.62,
+                        textinfo="percent",
+                        hovertemplate=(
+                            "<b>%{label}</b>"
+                            "<br>Population: %{value:,}"
+                            "<br>Share: %{percent}"
+                            "<extra></extra>"
+                        )
+                    )
+                ]
+            )
+
+
+            group_donut.update_layout(
+
+                height=430,
+
+                margin=dict(
+                    l=10,
+                    r=10,
+                    t=10,
+                    b=85
+                ),
+
+                paper_bgcolor="white",
+
+                font=dict(
+                    family="Arial",
+                    color="#17233F"
+                ),
+
+                legend=dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=-0.30,
+                    xanchor="center",
+                    x=0.5
+                )
+            )
+
+
+            st.plotly_chart(
+                group_donut,
+                use_container_width=True,
+                config={
+                    "displayModeBar": False
+                }
+            )
+
+
+        # ====================================================
+        # FULL CATEGORY TABLE
+        # ====================================================
+
+        st.markdown(
+            """
+            <div class="section-title">
+                SC Population Distribution
+            </div>
+
+            <div class="section-subtitle">
+                Complete Scheduled Caste category data for this state
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+
+        display_categories = category_summary.copy()
+
+
+        display_categories[
+            "Population"
+        ] = (
+            display_categories[
+                "Population"
+            ]
             .apply(indian_number)
         )
 
 
-    st.dataframe(
-        state_table,
-        use_container_width=True,
-        hide_index=True,
-        height=600
-    )
+        display_categories = (
+            display_categories
+            .rename(
+                columns={
+                    "SC Name":
+                        "Scheduled Caste"
+                }
+            )
+        )
+
+
+        st.dataframe(
+            display_categories,
+            use_container_width=True,
+            hide_index=True,
+            height=550
+        )
 
 
 # ============================================================
@@ -1422,10 +1524,7 @@ st.markdown(
     """
     <div class="footer">
         Source: Census of India 2011 · Scheduled Caste Population Data
-        <br>
-        Dashboard updates automatically when the underlying CSV is updated.
     </div>
     """,
     unsafe_allow_html=True
 )
-
